@@ -124,7 +124,7 @@ gentop('Cahier des charges de Papyrus','container');
 	
 	<h4>Les sous-titres</h4>
 	<p>
-	En plus du titre principal, toute branche (y compris le "tronc"), pourra disposer d’autant de "sous-titre" que nécessaire en tant que sous-champ d’un sous-champ de la branche. (Le premier englobe la liste des sous-titre, le segond les sous-titre même).<br />
+	En plus du titre principal, toute branche (y compris le "tronc"), pourra disposer d’autant de "sous-titre" que nécessaire en tant que sous-champ d’un sous-champ de la branche. (Le premier englobe la liste des sous-titre, le second les sous-titre même).<br />
 	Un "sous-titre" est titre secondaire destiné à préciser le sujet traité. Typiquement, le titre et le sous-titre sont séparés par le signe de ponctuation deux-points ou par la "conjonction du sous-titre" « ou » mais aussi par d’autre conjonctions, de manière générale, celle ci devra être précisé en tant que sous-champ du sous-titre.
 	</p>
 	
@@ -281,7 +281,7 @@ gentop('Cahier des charges de Papyrus','container');
 	
 	<h3>Les paragraphes</h3>
 	<p>
-	Il existe aussi un ultime sous-champ dans le corps de texte, à savoir, le "paragraphe", il peut y en avoir autant que nécessaire dans un corps de texte. Chaque passage paragraphé peut contenir autant de lignes que nécessaire et même des sauts de ligne. En revanche, l’espace à laisser entre chaque paragraphe est défini par un autre sous-champ dédié à cet effet en pourcentage de la hauteur de la police.
+	Il existe aussi un ultime sous-champ dans le corps de texte, à savoir, le "paragraphe", il peut y en avoir autant que nécessaire dans un corps de texte. Chaque passage paragraphé peut contenir autant de lignes que nécessaire et même des sauts de ligne.
 	</p>
 	
 	<h2>Multiplicité des plans de chapitrage</h2>
@@ -289,32 +289,32 @@ gentop('Cahier des charges de Papyrus','container');
 		Certains ouvrages présentent un chapitrage non forcément obligatoire, voire même plusieurs possibilitées de chapitrage, c’est le cas de certains receuils par exemples qui peuvent aussi bien être organisés par date d’apparition, que par théme que par tout autre critère. Plus d’un chapitrage peut, donc être conseillé par l’auteur et être tous listés dans PAP, affin que le lécteur puisse passer de l’un à l’autre. L’auteur aura Cependant l’obligation de choisir un chapitrage principal et d’agencer les autre chapitrage selon un ordre numérique et peut même donner un titre à chaque chapitrage, et un texte de présentation du chapitrage.
 	</p>
 	<p>
-		En claire, les différents chapitrages sont complettement indépendants les uns des autres, et tous supportent les mêmes fonctionnalitées de chapitrage.</br>
-		En revanche il existe une unité atomique qui ne peut être divisée, dans aucun plan : le "verset", l’auteur, si besoin peut définir chaque vérsset ainsi que les només et les pseudo-numérotés.
+		En clair, les différents chapitrages sont complètement indépendants les uns des autres, et tous supportent les mêmes fonctionnalités de chapitrage.</br>
+		En revanche, il existe une unité atomique qui ne peut être divisée, dans aucun plan : le "verset", l’auteur, si besoin peut définir chaque verset ainsi que les només et les pseudo-numérotés. <!-- What ? « les només » -->
 	</p>
 	<p>
-	En plus de cela Il y’a un champ spécifique pour décrire au lécteur la raison de chaque chapitrage et éventuellement, lequel choisir pour sa lecture.
+	En plus de cela, il y a un champ spécifique pour décrire au lecteur la raison de chaque chapitrage et éventuellement, lequel choisir pour sa lecture.
 	</p>
 	
 	
 	
 	<h1>Les pavillons du corps de texte</h1>
 	<p>
-	Comme il existe différents usages scripturaux, pour chaque métier et technique, les manière les plus répandues on étés retenues, et sont décrites si-dessous. Les pavillons sont différentes des "citations" à savoir qu’un élément de corps de texte battant un pavillon ne doit être qu’un formatage différent *passager*. Contrairement aux "citations" qui, aussi peuvent être courtes et fonctionne, à un détail prét comme les pavillons, mais en diffèrent dans le sens où les pavillons doivent concerner des mots contenues dans l’économie globale d’une phrase, tandisque les "citaition" peuvent donner lieux à des exemples, allant de la phrase, au paragraphe.<br />
+	Comme il existe différents usages scripturaux, pour chaque métier et technique, les manières les plus répandues ont été retenues, et sont décrites ci-dessous. Les pavillons sont différents des "citations", c'est-à-dire qu’un élément de corps de texte battant un pavillon ne doit être qu’un formatage différent *passager*. Contrairement aux "citations" qui, aussi peuvent être courtes et fonctionnent, à un détail prét comme les pavillons, mais en diffèrent dans le sens où les pavillons doivent concerner des mots contenus dans l’économie globale d’une phrase, tandis que les "citations" peuvent donner lieux à des exemples, allant de la phrase, au paragraphe.<br />
 	
-	En déffinitive un texte pavilloné est plus un texte comme tout autre texte, c’est donc juste un passage à sens spécial.</br>
+	En définitive, un texte pavilloné est plus un texte comme tout autre texte, c’est donc juste un passage à sens spécial.</br>
 	
-	Tout caractère d’un texte brut peut être concérné par une option de corps de texte.
+	Tout caractère d’un texte brut peut être concerné par une option de corps de texte.
 	</p>
 	
 	<dl>
 		<dt>Le dialogue</dt>
 			<dd>
-			Un niveau particulier, pour les textes sous forme de dialogue (piéce de theatre, historique de clavardage, correspondance) est envisagé avec la possibilité de préciser la date (avec une précision allant à la millisegonde), dans tous les formats de calendiers connus (Calendrier julien, grégorier, Russe, Islamique, Républicain, maya etc) et même dans un calendrier immaginaire dont les spécificité devront alors être précisées dans un champ dédié et le lieux d’émission, le/les déstinataires, la formule de politesse, la formule de fin de chaque répartie dans un sous-champ spécifique, avec trois options dont une et une seule doit être obligatoirement choisie :
+			Un niveau particulier, pour les textes sous forme de dialogue (pièce de theatre, historique de clavardage, correspondance) est envisagé avec la possibilité de préciser la date (avec une précision allant à la milliseconde), dans tous les formats de calendiers connus (Calendrier Julien, Grégorien, Russe, Islamique, Républicain, Maya etc) et même dans un calendrier imaginaire dont les spécificités devront alors être précisées dans un champ dédié et le lieu d’émission, le(s) destinataire(s), la formule de politesse, la formule de fin de chaque répartie dans un sous-champ spécifique, avec trois options dont une et une seule doit être obligatoirement choisie :
 			
 			<ul>
-			<li>Le dialogue instantanné avec longues réparties</li>
-			<li>Le dialogue instantanné avec courtes réparties</li>
+			<li>Le dialogue instantané avec longues réparties</li>
+			<li>Le dialogue instantané avec courtes réparties</li>
 			<li>Le dialogue différé et épistolaire.</li>
 			</ul>
 			<dl>
@@ -324,40 +324,40 @@ gentop('Cahier des charges de Papyrus','container');
 			</dl>
 		</dd>
 		
-		<dt>La verssifications (litérature)</dt>
+		<dt>La versifications (littérature)</dt>
 		<dd>
-			En litérrature, la forme particulière d’écriture en vers est souvent utilisé. Dans le PAP il s’agit d’une option de texte brut. En claire il n’existe pas un mode "prose" et un "vers" en PAP, La prose est la norme et la versification une option. De plus il peut être précisé en option de la versification si le texte suit les loies de la métrique.
+			En littérature, la forme particulière d’écriture en vers est souvent utilisé. Dans le PAP il s’agit d’une option de texte brut. En claire il n’existe pas un mode "prose" et un "vers" en PAP, La prose est la norme et la versification une option. De plus il peut être précisé en option de la versification si le texte suit les lois de la métrique.
 		</dd>
 		
 		<dt>Le solfège (musique)</dt>
 		<dd>
-			Un mode solplhègique existe et la partition doit s’écrire dans le code de lylipond. Cependant deux sous mode existe, l’un pour préciser s’il s’agit du solphège européen ou du Jianpu, en vigeure dans le monde chinois.</br>
-			Le passage battant pavillon solphégique pourra être joint en sous-champ d’un enregistrement des notes jouées.
+			Un mode "solfège" existe et la partition doit s’écrire dans le code de lylipond. Cependant deux sous mode existe, l’un pour préciser s’il s’agit du solfège européen ou du Jianpu, en vigeur dans le monde chinois.</br>
+			Le passage battant pavillon solfégique pourra être joint en sous-champ d’un enregistrement des notes jouées.
 		</dd>
 		
-		<dt>Les code source (informatique)</dt>
+		<dt>Les codes source (informatique)</dt>
 		<dd>
-			Les codes sources des programmes informatiques seront identifiés et si le code source est celui d’un language reconnu, il suffira de préciser le nom du language. Pour les languages éxotiques, peut répondus ou récents, il sera possible de définir les spécificité de ce language.<br />
-			Pour les passage battant le pavillon du code source de programation non-scriptale, il est possible de joindre en option un binaire compilé en précisant le nom et le numéro du noyaut avec un compilateur duquel il a été compilé. Il est donc possible de joindre autant de binaires que de noyauts pour lesquels ils ont étés compilés. Idem pour *tex dont il est possible de joindre une vue du rendu<br />
-			Pour les language webs tel HTML, il est possible de choisir si par défaut doit être affiché le code où le rendu intérprété par un moteur de rendu. Le choix est pertinant car un lecteur de PAP peut proposer au lecteur de montrer le rendu d’un passage de code HTML.<br />
-			Enfin pour les scripts d’interpréter de commande il est possible de joindre une simmulation de l’éxecution.
+			Les codes source des programmes informatiques seront identifiés, et si le code source est celui d’un langage reconnu, il suffira de préciser le nom du langage. Pour les langages éxotiques, peu répandus ou récents, il sera possible de définir les spécificités de ce langage.<br />
+			Pour les passages battant le pavillon du code source de programmation non-scriptale, il est possible de joindre en option un binaire compilé en précisant le nom et le numéro du noyau avec un compilateur avec lequel il a été compilé. Il est donc possible de joindre autant de binaires que de noyaux pour lesquels ils ont étés compilés. Idem pour *tex dont il est possible de joindre une vue du rendu.<br />
+			Pour les langage webs tel que HTML, il est possible de choisir, si par défaut doit être affiché le code où le rendu intérprété par un moteur de rendu. Le choix est pertinent car un lecteur de PAP peut proposer au lecteur de montrer le rendu d’un passage de code HTML.<br /> <!-- C'est un peu bancal, c'est le rôle du reader de choisir quoi afficher non ? Logiquement, PAP doit s'occuper uniquement du fond --> 
+			Enfin pour les scripts de langages interprétés, il est possible de joindre une simulation de l’execution.
 		</dd>
 		
 		
-		<dt>Les identifiant uniforme de ressource (Informatique)</dt>
+		<dt>Les identifiants uniformes de ressources (Informatique)</dt>
 		<dd>
-			Les identifiant de ressources de l’isbn aux localisateurs uniformes de ressource (URL) sont aussi reconnus comme tel.
+			Les identifiants de ressources de l’isbn aux localisateurs uniformes de ressource (URL) sont aussi reconnus comme tel.
 		</dd>
 		
 		<dt>Les codes d’Interpréteur de commandes (Informatique)</dt>
 		<dd>
-			Lorsque l’auteur veut ajouter un code d’interpréteur de commandes il ferra batre au passage concerné le pavillon adéquat, de même que pour les codes sources, il sera possible de préciser de quel type il s’agit (Bash, zsh, fish, DOS etc) et pour les intérpréteurs non pris en charge, il sera possible de préciser les spécificités. Il est aussi possible de définir si une commande est à éxecutée en tant que super-utilisateur ou en tant qu’utilisateur normal.
+			Lorsque l’auteur veut ajouter un code d’interpréteur de commandes il ferra battre au passage concerné le pavillon adéquat, de même que pour les codes sources, il sera possible de préciser de quel type il s’agit (Bash, zsh, fish, DOS etc) et pour les interpréteurs non pris en charge, il sera possible de préciser les spécificités. Il est aussi possible de définir si une commande est à exécuter en tant que super-utilisateur ou en tant qu’utilisateur normal.
 		</dd>
 		
 		
-		<dt>Les formules mathématiques et phisiques</dt>
+		<dt>Les formules mathématiques et chimiques</dt>
 		<dd>
-			l’insertion des formules mathématiques et chimiques est possible dans un language similaire à celui utilisé par Latex. Pour les formules chimiques on pourra préciser le type de représentation choisit.
+			L’insertion des formules mathématiques et chimiques est possible dans un langage similaire à celui utilisé par Latex. Pour les formules chimiques on pourra préciser le type de représentation choisi.
 		</dd>
 		<dd>
 
@@ -371,7 +371,7 @@ gentop('Cahier des charges de Papyrus','container');
 			Une plage en sténographie peut aussi être identifiée par le PAP.
 		</dd>
 		
-		<dt>métalinguistique</dt>
+		<dt>Métalinguistique</dt>
 		<dd>
 			Une forme particulière de pavillonage, réunie sous le groupe métalinguistique, permet de repérer certaines plages de texte en fonction de leur sens en voici un exemple :
 		
@@ -384,18 +384,18 @@ gentop('Cahier des charges de Papyrus','container');
 			<dt>Glose</dt>
 			
 			<dd>
-				Cette série de pavillons pemet d’identifier les mots n’éxistant pas dans la langue principale de l’ouvrage. Elles peuvent toutes être combinées entre elles.
-				En particulier les mots d’origine étrangère à la langue principale de l’ouvrage. pour ceuxla, il est possible de préciser en sous-champ, la langue originelle de la locution, la traduction de la locution.
+				Cette série de pavillons pemet d’identifier les mots n’existant pas dans la langue principale de l’ouvrage. Elles peuvent toutes être combinées entre elles.
+				En particulier les mots d’origine étrangère à la langue principale de l’ouvrage. Pour ceux-là, il est possible de préciser en sous-champ, la langue originelle de la locution, la traduction de la locution.
 				
 				<dl>
 					<dt>Les xénismes</dt>
 					<dd>
-						Ce pavillon précise que c’est une locution reconnu comme étrangere par les usagers de la langue et dont la transposition "tel quel" est voulue pour évoquer la culture étrangère. (en particulier les locutions latines et anglophones).
+						Ce pavillon précise que c’est une locution reconnue comme étrangère par les usagers de la langue et dont la transposition "tel quel" est voulue pour évoquer la culture étrangère. (en particulier les locutions latines et anglophones).
 						</dd>
 						
 						<dt>Les mots techniques</dt>
 						<dd>
-						Sont concérnés les mots étrangers spécifiques à la discipline traité par l’ouvrage (l’anglais pour l’informatique ou l’italien pour la musique)
+						Sont concernés les mots étrangers spécifiques à la discipline traité par l’ouvrage (l’anglais pour l’informatique ou l’italien pour la musique)
 						</dd>
 						
 						<dt>La linguistique</dt>
@@ -405,21 +405,21 @@ gentop('Cahier des charges de Papyrus','container');
 						
 						<dt>Technique</dt>
 						<dd>
-						pour les néologisme une option "technique" permet d’identfier un néologisme non léxicalisé par la langue principale de l’ouvrage mais répondu dans le jargon d’une proféssion.
+						Pour les néologismes une option "technique" permet d’identfier un néologisme non lexicalisé par la langue principale de l’ouvrage mais répandu dans le jargon d’une profession.
 						</dd>
 						
 						<dt>Néologismes subjectif</dt>
 						<dd>
-						Ce pavillon marque les néologisme inventés par l’auteur avec l’ouvrage même
+						Ce pavillon marque les néologismes inventés par l’auteur avec l’ouvrage même.
 						</dd>
-						<dt>Acception du contexte</dt>
+						<dt>Acception du contexte</dt> <!-- Acception ? -->
 						<dd>
-						Lorcequ’un mot polissémique à un sens particulier dans le contexte dont traite l’ouvrage, il peut être pavilloné de sorte à être reconnu comme tel.
+						Lorsqu’un mot polysémique a un sens particulier dans le contexte dont traite l’ouvrage, il peut être pavilloné de sorte à être reconnu comme tel.
 						</dd>
 						
 						<dt>Autre</dt>
 						<dd>
-						Bat pavillon "autre" tout autre type de néologisme que ceux cités précedement.
+						Le pavillon "autre" regroupe tout autre type de néologisme que ceux cités précédemment.
 						</dd>
 					</dd>
 				</dl>
@@ -430,7 +430,7 @@ gentop('Cahier des charges de Papyrus','container');
 		
 		<dt>Autonymie</dt>
 		<dd>
-		Est pavilloné comme autonyme  un mot dont on veut désigner la substance  même lorsque celui-ci est cité ou se désigne lui-même ; elle désigne /in extenso/ le discours cité d’une citation.
+		Est pavilloné comme autonyme un mot dont on veut désigner la substance même lorsque celui-ci est cité ou se désigne lui-même ; elle désigne /in extenso/ le discours cité d’une citation.
 		
 		Exemple : Le nom "voiture" est du genre féminin.
 		</dd>
@@ -438,13 +438,13 @@ gentop('Cahier des charges de Papyrus','container');
 		
 		<dt>Les abréviations</dt>
 		<dd>
-		Pour distinger les raccourcissements d’un mot ou d’un groupe de mots, représentés alors par une lettre ou un groupe de lettres issus de ce mot, il a été prévu un pavillonage d’abreviation. une option des pavillonage d’abreviation permet d’entrer le mot abrégé en complet.
+		Pour distinger les raccourcissements d’un mot ou d’un groupe de mots, représentés alors par une lettre ou un groupe de lettres issus de ce mot, il a été prévu un pavillonage d’abréviation. Une option des pavillonages d’abréviation permet d’entrer le mot abrégé en complet.
 			<dl>
 				<dt>Personnelles</dt>
 				<dd>
-				Sont dites "personnelles", les abréviations propres à l’ouvrage et devant jouir d’une présentation préalable pour pouvoir êtres comprise par le lécteur.
+				Sont dites "personnelles", les abréviations propres à l’ouvrage et devant jouir d’une présentation préalable pour pouvoir êtres comprise par le lecteur.
 				</dd>
-				<dt>Lettre suscrite</dt>
+				<dt>Lettre suscrite</dt> <!-- Utilité ? Mise en page ? -->
 				<dd>
 				Le mot est tronqué par contraction (on ne garde que la ou les premières lettres) et la finale (ou les finales) est écrite en hauteur, dans un petit format.
 				</dd>
@@ -452,12 +452,12 @@ gentop('Cahier des charges de Papyrus','container');
 				
 				<dt>Troncation</dt>
 				<dd>
-				Pavillon servant à préciser qu’un mot est tronqué en début ou en fin et, éventuellement, terminé par la voyelle o. devra être précisé en sous-champ le mot complet
+				Pavillon servant à préciser qu’un mot est tronqué en début ou en fin et, éventuellement, terminé par la voyelle o. devra être précisé en sous-champ le mot complet. <!-- Euh, comprend pas la phrase. La voyelle o ? Pourquoi ? -->
 				</dd>
 				
 				<dt>Réticence de plume</dt>
 				<dd>
-				Précise que l’abreviation est un masquage pudique des lettres d’un mot, en général ordurier, par un signe de ponctuation qui est souvent le point.
+				Précise que l’abréviation est un masquage pudique des lettres d’un mot, en général ordurier, par un signe de ponctuation qui est souvent le point.
 				</dd>
 			</dl>
 		</dd>
@@ -466,8 +466,8 @@ gentop('Cahier des charges de Papyrus','container');
 		
 		<dt>Acronymie</dt>
 		<dd>
-		Sont les abréviation dont le résultat forme un mot prononcé sans l’épeler. le pavillon d’acronymie précise donc que le mot est à lire syllabairement et non à l’eppelé.
-		devra être précisée dans des champs spéciaux les différents mots composants l’acronyme et leur initiales.
+		Sont les abréviations dont le résultat forme un mot prononcé sans l’épeler. Le pavillon d’acronymie précise donc que le mot est à lire par syllabes et non à l’épeler.
+		Il devra être précisé dans des champs spéciaux les différents mots composant l’acronyme et leur initiales.
 			<dl>
 				<dt>Récursivité</dt>
 				<dd>
@@ -707,7 +707,7 @@ gentop('Cahier des charges de Papyrus','container');
 	
 	<h3>L’auteur</h3>
 	<p>
-	La raison du PAP est de propossé un fichier unique pour chaque ouvrage, dans ce fichier seront réunie en déffinitive toutes les verssions et toutes les informations connues de l’œuvre. Une biographie de l’auteur par exemple n’a pas sa place dans le PAP car elle peut être variable, de plus elle concerne plus l’auteur que l’œuvre même alors que le fait de connaitre le nom de l’auteur suffirait pour pouvoir en retrouver une biographie, idem pour une adresse de jonction de l’auteur, d’autant que cette derrnière peut être vraiment très variable au cour du temps, voir innutile aprés la mort de l’auteur. Néanmoins, pour un minimum d’indépendance, il est tout de même possible d’intégrer certaines de ces informations dans le champ complexe des information variable, le fait de placer ces information dans ce champ informe de leur éxtrême variabilité et du fait qu’il ne sont donnés qu’à titre indicatif.<br />
+	La raison du PAP est de propossé un fichier unique pour chaque ouvrage, dans ce fichier seront réunie en définitive toutes les verssions et toutes les informations connues de l’œuvre. Une biographie de l’auteur par exemple n’a pas sa place dans le PAP car elle peut être variable, de plus elle concerne plus l’auteur que l’œuvre même alors que le fait de connaitre le nom de l’auteur suffirait pour pouvoir en retrouver une biographie, idem pour une adresse de jonction de l’auteur, d’autant que cette derrnière peut être vraiment très variable au cour du temps, voir innutile aprés la mort de l’auteur. Néanmoins, pour un minimum d’indépendance, il est tout de même possible d’intégrer certaines de ces informations dans le champ complexe des information variable, le fait de placer ces information dans ce champ informe de leur éxtrême variabilité et du fait qu’il ne sont donnés qu’à titre indicatif.<br />
 	Comme ces informations varrient, leur différentes verssions connues à un moment donné, réstent enregistrée dans le PAP pour des raisons de philologie, avec en sous-champ la date d’abondon.
 	</p>
 
@@ -718,7 +718,7 @@ gentop('Cahier des charges de Papyrus','container');
 	
 	<h2>Multiplicité d’auteurs</h2>
 	<p>
-	Lorcequ’il y’a plusieurs pérsonne à avoir apportée leur travail à l’ouvrage chacune doit être citée avec le droit au mêmes champs comme cité plus haut.<br />
+	Lorsqu’il y a plusieurs pérsonne à avoir apportée leur travail à l’ouvrage chacune doit être citée avec le droit au mêmes champs comme cité plus haut.<br />
 	Et comme il est forcément besoin de classer les auteurs il existe des groupes, Les auteurs pricipaux, les post-contributeurs, les commentateurs, les correcteurs sémiques, les correcteurs linguistiques, les traducteurs, et puis les éditeurs.
 	</p>
 	
@@ -845,7 +845,7 @@ gentop('Cahier des charges de Papyrus','container');
 	
 	
 	<h1>Les balises textuelles</h1>
-	Tout le texte est parssemé de précisions, certaines tenant des modifications apportées au texte au file de son éxistance, compte au déffinitions où à l’éxplication de certains mots, ou encore compte au notes de traduction, à la collaboration de différents de différents auteurs, ou des notes de bas de pages originelles.
+	Tout le texte est parssemé de précisions, certaines tenant des modifications apportées au texte au file de son éxistance, compte au définitions où à l’éxplication de certains mots, ou encore compte au notes de traduction, à la collaboration de différents de différents auteurs, ou des notes de bas de pages originelles.
 	
 	<h2>Les balises de corréspondance manuscrite</h2>
 	Un PAP peut aussi embarquer une numérisation d’un manuscrit, un fac-similé de l’œuvre où un enregistrement phonographique de la lecture de celle-ci, dans ce cas un travail est fait sur la correspondance entre chaque caractère dans le corps de texte du PAP et son équivalent dans l’image de numérisation et/ou dans l’enregistrement phonographique.
@@ -862,7 +862,7 @@ gentop('Cahier des charges de Papyrus','container');
 	<h2>La précision du contexte</h2>
 	Des balises peuvent préciser le contexte concernant un passage.
 	
-	<h2>La déffinition</h2>
+	<h2>La définition</h2>
 	Certains mots polissémiques peuvent avoir une signification très particulière dans l’œuvre, dans ce cas, des balises spéciales précisent
 	
 	
