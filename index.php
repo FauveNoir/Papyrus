@@ -326,6 +326,11 @@ gentop('Cahier des charges de Papyrus','container');
 			<dd>
 			</dd>
 			</dl>
+
+			<dl>
+				<dt>Rétro-modification</dt>
+				<dd>Il s’agit là d’une figure de style particulière consistant en ce qu’un interlocuteur ou correspondant puisse modifier ses interventions dans le passé.</dd>
+			</dl>
 		</dd>
 		
 		<dt>La versifications (littérature)</dt>
@@ -553,6 +558,12 @@ gentop('Cahier des charges de Papyrus','container');
 			</dl>
 		</dd>
 
+		<dt>Liaison</dt>
+		<dd>Permet de relier deux parties non contigües entre elles.</dd>
+
+		<dt>Marque</dt>
+		<dd>Permet de marquer un objet d’une certaine façon. Par exemple, dans les ouvrages de grammaires, permet de marquer la fonction d’un mot dans une phrase.</dd>
+
 		<dt>Avertissement de contenu</dt>
 		<dd>
 		Averti le lecteur que le dévoilement d’un passage ne lui est préférable que sous certaines conditions.
@@ -593,7 +604,7 @@ gentop('Cahier des charges de Papyrus','container');
 			</dl>
 		</dd>
 
-		<dt>Résolution de notation</dt>
+		<dt>Origine paléographique</dt>
 		<dd>
 		Il se peut que, compte tenu des fonctionalités sémantiques formelles présentées par Papyrus, certaines notations d’origine (d’ouvrages apparus avant la mise au point du format Papyrus) deviennent obsolètes car redondantes avec le traitement formel de Papyrus (Par exemple, l’avertissement de contenu qui n’a plus lieux d’être mentionné en toute lettres car traité par la fonctionnalité adequate). Toutes fois, pour préserver une trace du contenu original de l’auteur initial, un champ est prévu.
 		</dd>
@@ -653,6 +664,13 @@ gentop('Cahier des charges de Papyrus','container');
 	<p>
 	Évidemment, un champ permet à l’auteur de s’exprimer sur les raisons de la publication d’une édition différente dans son ensemble ou de justifier chaque passage.
 	</p>
+
+	<h3>Pagination</h3>
+	<p>
+	Chaque version peut être accompagnée de ses propres balises de pagination. Celà est particulièrement utile lorsque, pour un ouvrage donnée, une édition fut tellement importante qu’elle devint une référence. L’exemple typique est celui de la <a href="https://fr.wikipedia.org/wiki/Pagination_de_Stephanus">Pagination de Stephanus</a>.<br />
+	Ainsi, plusieurs paginations peuvent cohabiter dans un même papyrus.
+	</p>
+
 	
 	<h2>Les précisions de type paléographique</h2>
 	Ces précisions cherchent à montrer un changement entre une ancienne graphie d’un mot utilisé.
@@ -817,20 +835,22 @@ gentop('Cahier des charges de Papyrus','container');
 	Dans le corps de texte, certains passages réclament une identification spéciale, ces identifications sont regroupées dans ce chapitre. La différence d’avec les options de corps de texte étant que les passages spéciaux peuvent regrouper plusieurs ligne tandis qu’une option de corps est souvent un formatage spécial contenu dans une phrase normale. Dans les supports intéractifs on préférera à l’affichage "à la suite" du texte, un affichage "isolé", une partition, un code source où une équation par exemple seront affiché dans une partie de l’écran différente pour que le lecteur puisse continuer à lire le doccument tout en ayant le passage spécial sous les yeux, car souvent la suite du texte traite de ce passage. C’est encore plus vrai pour le visionnage d’un vidéograme ou pour l’écoute d’un audiograme. <!-- C'est pas le rôle du reader ça aussi ? -->
 	</p>
 	
-	<h2>Les sous-numérotation et liste</h2>
+	<h2>Les listes</h2>
 	<p>
 	Indépendemment du chapitrage principal peuvent apparaître dans le corps de texte certaines listes, parfois numérotées. Il peuvent paraître redondant mais assez souvent leur utilisation est indépandante de la hiérarchie de chapitrage, cela peut être une liste de tâches par exemple, le PAP prévois deux type de listes :
 	
 	</p>
-	<h3>Liste numérotées</h3>
-	<p>
-	Il s’agit de listes toutes simples, avec une infinité de sous parties que nécessaire. Chaque partie pouvant contenir plusieurs "paragraphe" dans le "corps de texte".
-	</p>
-	
-	<h3>Les listes à point</h3> <!--Listes à puces ?-->
-	<p>	
-	Il s’agit de listes très simples ne disposant d’aucune forme de numérotation ni de hierarchie.
-	</p>
+	<dl>
+		<dt>Liste numérotées</dt>
+		<dd>
+		Il s’agit de listes toutes simples, avec une infinité de sous parties que nécessaire. Chaque partie pouvant contenir plusieurs "paragraphe" dans le "corps de texte".
+		</dd>
+		
+		<dt>Les listes à puces</dt>
+		<dd>	
+		Il s’agit de listes très simples ne disposant d’aucune forme de numérotation ni de hierarchie.
+		</dd>
+	</dl>
 	
 	<h2>Les insertions d’objet</h2>
 	<p>	
