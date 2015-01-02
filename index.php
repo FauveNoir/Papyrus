@@ -294,7 +294,9 @@ gentop('Cahier des charges de Papyrus','container');
 	</p>
 	<p>
 		En clair, les différents chapitrages sont complètement indépendants les uns des autres, et tous supportent les mêmes fonctionnalités de chapitrage.</br>
-		En revanche, il existe une unité atomique qui ne peut être divisée, dans aucun plan : le "verset", l’auteur, si besoin peut définir chaque verset ainsi que les només et les pseudo-numérotés. <!-- What ? « les només » -->
+		En revanche, il existe une unité atomique qui ne peut être divisée, dans aucun plan : le "verset", l’auteur, si besoin peut définir chaque verset ainsi que les nomer et les pseudo-numérotés. <!-- What ? « les només »
+		— « Les nomER » oui, les versets peuvent être només.
+		-->
 	</p>
 	<p>
 	En plus de cela, il y a un champ spécifique pour décrire au lecteur la raison de chaque chapitrage et éventuellement, lequel choisir pour sa lecture.
@@ -348,7 +350,9 @@ gentop('Cahier des charges de Papyrus','container');
 		<dd>
 			Les codes source des programmes informatiques seront identifiés, et si le code source est celui d’un langage reconnu, il suffira de préciser le nom du langage. Pour les langages éxotiques, peu répandus ou récents, il sera possible de définir les spécificités de ce langage.<br />
 			Pour les passages battant le pavillon du code source de programmation non-scriptale, il est possible de joindre en option un binaire compilé en précisant le nom et le numéro du noyau avec un compilateur avec lequel il a été compilé. Il est donc possible de joindre autant de binaires que de noyaux pour lesquels ils ont étés compilés. Idem pour *tex dont il est possible de joindre une vue du rendu.<br />
-			Pour les langage webs tel que HTML, il est possible de choisir, si par défaut doit être affiché le code où le rendu intérprété par un moteur de rendu. Le choix est pertinent car un lecteur de PAP peut proposer au lecteur de montrer le rendu d’un passage de code HTML.<br /> <!-- C'est un peu bancal, c'est le rôle du reader de choisir quoi afficher non ? Logiquement, PAP doit s'occuper uniquement du fond --> 
+			Pour les langage webs tel que HTML, il est possible de choisir, si par défaut doit être affiché le code où le rendu intérprété par un moteur de rendu. Le choix est pertinent car un lecteur de PAP peut proposer au lecteur de montrer le rendu d’un passage de code HTML.<br /> <!-- C'est un peu bancal, c'est le rôle du reader de choisir quoi afficher non ? Logiquement, PAP doit s'occuper uniquement du fond
+			— Non, en fait ce sont deux fonctionnalités qui doivent êtres distinctes. L’une doit afficher un code source destiné à être lu ; l’autre la sortie d’une execution.
+			--> 
 			Enfin pour les scripts de langages interprétés, il est possible de joindre une simulation de l’execution.
 		</dd>
 		
@@ -421,7 +425,7 @@ gentop('Cahier des charges de Papyrus','container');
 						<dd>
 						Ce pavillon marque les néologismes inventés par l’auteur avec l’ouvrage même.
 						</dd>
-						<dt>Acception du contexte</dt> <!-- Acception ? -->
+						<dt>Acception du contexte</dt> <!-- https://fr.wiktionary.org/wiki/acception -->
 						<dd>
 						Lorsqu’un mot polysémique a un sens particulier dans le contexte dont traite l’ouvrage, il peut être pavilloné de sorte à être reconnu comme tel.
 						</dd>
@@ -694,7 +698,7 @@ gentop('Cahier des charges de Papyrus','container');
 				<dt>Les logogrammes et symboles divers</dt>
 				<dd>
 					Des mots ou des syllabes entières peuvent être remplacés par un signe unique, que ce soient des ligatures (cf. esperluette) ou des lettres modifiées (barrées, surmontées de symboles, du titulus et autres signes). Ce symbole devra alors être joint en tant qu’image.
-					Les notes tironiennes, par exemple, ont fourni un grand nombre d’abbréviations de ce type, qui abondent surtout dans les manuscrits de droit . <!-- notes tironniennes ? turonniennes * ? -->
+					Les notes tironiennes, par exemple, ont fourni un grand nombre d’abbréviations de ce type, qui abondent surtout dans les manuscrits de droit . <!-- https://fr.wikipedia.org/wiki/Notes_tironiennes ? -->
 				</dd>
 				
 				<dt>La substitution du <span class="autology">-us</span> (ou autre) par un <span class="autology">-x</span> ou <span class="autology">-<sup>9</sup></span> (ou autre)</dt>
@@ -721,7 +725,7 @@ gentop('Cahier des charges de Papyrus','container');
 	Outre le texte même, est souvent joint à un ouvrage différents textes ou éléments périfériques.
 	</p>
 	<p>
-	Que se soit un préambule, un avant-propos, une notice, un avis au lecteur, une préface, une postface, une avertissement, une introduction, des discours préliminaires, un épilogue, une/des lettre(s) ouverte(s), et autre éléments préambulatoire de l’auteur/traducteur/éditeur et texte de tête des différents éditeurs/auteurs/traducteurs, post-scriptum. Mais aussi des informations compte à la propriété intellectuelle, le nom, la description de la licence, le nom de ou des auteurs/éditeurs/traducteurs, la date de parution, le destinataire du document, les différentes éditions/représentations, ainsi que les crédits et le résumé des crédits, mes aussi les annexes, les appendices, les dossiers joints, l’ISBN/ISSN, la discipline/domaine/mouvement auxquels appartient l’ouvrage, le genre, la classification selon deleway <!--deleway ?-->, selon le système décimal et/ou selon un autre système dont le nom sera précisé, une citation préambulatoire, le dépot légal, l’édition, la date d’édition, information sur l’édition, ainsi que la manière dont à été édité l’ouvrage, la bibliothèque distribuant l’ouvrage, des information sur l’édition en PAP, le frontispice, les dédicaces, le résumé de l’œuvre, le résumé de quatrième de couverture etc.</p>
+	Que se soit un préambule, un avant-propos, une notice, un avis au lecteur, une préface, une postface, une avertissement, une introduction, des discours préliminaires, un épilogue, une/des lettre(s) ouverte(s), et autre éléments préambulatoire de l’auteur/traducteur/éditeur et texte de tête des différents éditeurs/auteurs/traducteurs, post-scriptum. Mais aussi des informations compte à la propriété intellectuelle, le nom, la description de la licence, le nom de ou des auteurs/éditeurs/traducteurs, la date de parution, le destinataire du document, les différentes éditions/représentations, ainsi que les crédits et le résumé des crédits, mes aussi les annexes, les appendices, les dossiers joints, l’ISBN/ISSN, la discipline/domaine/mouvement auxquels appartient l’ouvrage, le genre, la <a href="https://fr.wikipedia.org/wiki/Classification_décimale_de_Dewey">classification</a> selon deway <!--deleway ? — Deway plutôt-->, selon le système décimal et/ou selon un autre système dont le nom sera précisé, une citation préambulatoire, le dépot légal, l’édition, la date d’édition, information sur l’édition, ainsi que la manière dont à été édité l’ouvrage, la bibliothèque distribuant l’ouvrage, des information sur l’édition en PAP, le frontispice, les dédicaces, le résumé de l’œuvre, le résumé de quatrième de couverture etc.</p>
 	Ces éléments sont extérieurs au texte même, ils le présentent, le précisent. Un champ est prévu pour chaque élément péri-textuel. Tous ces éléments ne sont pas toujours utilisés en même temps par un ouvrage donné dans ce cas là.
 	</p>
 	
