@@ -233,7 +233,7 @@ gentop('Cahier des charges de Papyrus','container');
 	<p/>
 	
 	<p>
-	La gemelliparie est donc pluto une option bolléenne de branche standard qui, si elle est activée, ouvre des sous-champs de méta-branches. Il peut y’avoir autant méta-branche que nécessaire.
+	La gemelliparie est donc plutôt une option bolléenne de branche standard qui, si elle est activée, ouvre des sous-champs de méta-branches. Il peut y’avoir autant méta-branche que nécessaire.
 	</p>
 	
 	<p>
@@ -476,13 +476,13 @@ gentop('Cahier des charges de Papyrus','container');
 				
 				<dt>Mutualité</dt>
 				<dd>
-				Un acronyme mutuellement récursif est un acronyme ayant un mot étant lui même un acronyme dont un mot renvois vers le premier acronyme. Exemple : "HURD : Hird of Unix-Replacing Daemons" et "HIRD : Hurd of Interfaces Representing Depth"
+				Un acronyme mutuellement récursif est un acronyme ayant un mot étant lui même un acronyme dont un mot renvoi vers le premier acronyme. Exemple : "HURD : Hird of Unix-Replacing Daemons" et "HIRD : Hurd of Interfaces Representing Depth"
 				</dd>
 				
 				<dt>Imbrication</dt>
 				<dd>
 				Un acronyme récursivement imbriqué est un acronyme dont un mot est aussi un acronyme pouvant lui même être récursivement imbriqué et ainsi de suite, il peut ne pas s’agir d’auto-référence.
-				Chacun des acronyme imbriqué pouvant avoir le même pavillonage que tout autre acronyme
+				Chacun des acronyme imbriqué pouvant avoir le même pavillonage que tout autre acronyme.
 				
 				Exemple d’imbrivations multiples :
 				
@@ -511,8 +511,8 @@ gentop('Cahier des charges de Papyrus','container');
 		
 				<dt>Siglaison</dt>
 				<dd>
-					Précise que les initiales de plusieurs plusieurs mots accolées ensemble sont à éppelées.
-					devra être précisée dans des champs spéciaux les différents mots composants l’acronyme et leur initiales.
+					Précise que les initiales de plusieurs plusieurs mots accolés ensemble sont à épeler.
+					Il devra être précisé dans des champs spéciaux les différents mots composants l’acronyme et leurs initiales.
 				</dd>
 				
 				<dt>Initiales</dt>
@@ -525,12 +525,12 @@ gentop('Cahier des charges de Papyrus','container');
 		
 		<dt>Les citations externes</dt>
 		<dd>
-		Tout passage reprennant une phrase d’un autre auteur peut être précisé avec la balise de citatiton externe, avec un champ qui précise le nom de l’auteur dont a étée reprise la citation, un champ pour l’ouvrage où elle apparut et un champ pour plus de préssision sur la partie exacte de la partition. Il peut de plus, être précisé en option si le fait que ce soit une citation est compréenssible d’aprés le contexte ou si le nom de l’auteur originel n’est précisé nul part ailleur qu’en option de pavillon.
+		Tout passage reprenant une phrase d’un autre auteur peut être précisé avec la balise de citation externe, avec un champ qui précise le nom de l’auteur dont a été reprise la citation, un champ pour l’ouvrage où elle apparut et un champ pour plus de précision sur la partie exacte de la partition. Il peut, de plus, être précisé en option,si le fait que ce soit une citation est compréhensible d’après le contexte, ou si le nom de l’auteur originel n’est précisé nulle-part ailleurs qu’en option de pavillon.
 		</dd>
 		
 		<dt>Exergue (typographie)</dt>
 		<dd>
-		Lorsque l’auteur veut indiquer à la feulle de style que certains passage de son texte peuvent êtres mis en exergues car porteurs d’une information décisive, il peut les pavillonnée en "exergue". Avec les options il peut choisir si la citation doit apparaître, avant son emplacement dans le texte ou aprés, et le cas échéant à quelle distance (les distance se comptan en "écran"/"page"/"vue").
+		Lorsque l’auteur veut indiquer à la feuille de style que certains passages de son texte peuvent êtres mis en exergues car porteurs d’une information décisive, il peut les pavillonnée en "exergue". Avec les options il peut choisir si la citation doit apparaître, avant son emplacement dans le texte ou aprés, et le cas échéant à quelle distance (les distances se comptant en "écran"/"page"/"vue").
 		</dd>
 
 		<dt>Licence (droit)</dt>
@@ -540,7 +540,7 @@ gentop('Cahier des charges de Papyrus','container');
 			<dl>
 				<dt>Source et crédits</dt>
 				<dd>
-				Déffinit l’auteur du passage.
+				Définit l’auteur du passage.
 				</dd>
 				<dt>Non-authentifié</dt>
 				<dd>
@@ -560,7 +560,7 @@ gentop('Cahier des charges de Papyrus','container');
 
 				<dt>Dévoilement d’intrigue (<a href="https://fr.wikipedia.org/wiki/Spoiler">divulgâchi</a>)</dt>
 				<dd>
-				Utile dans les papyrus traitants d’une autre œuvre. Dans l’argument d’une pièce ou le synopsis d’un film dont le lecteur ne désirerait pas avoir connaissance avant d’avoir jouis de cette œuvre.
+				Utile dans les papyrus traitants d’une autre œuvre. Dans l’argument d’une pièce ou le synopsis d’un film dont le lecteur ne désirerait pas avoir connaissance avant d’avoir joui de cette œuvre.
 				</dd>
 
 				<dt>Divulgâchi interne<dt>
@@ -572,7 +572,7 @@ gentop('Cahier des charges de Papyrus','container');
 		</dd>
 		<dt>Note</dt>
 		<dd>
-		Non, il ne s’agit pas de notes de bas de page ! (mais c’en est analogue)<br />
+		Non, il ne s’agit pas de notes de bas de page ! (mais c’en est analogue)<br /> <!-- c'en est analogue ?-->
 		Le Papyrus n’intégrant pas la mise en page, il ne précise pas comment mettre en forme les notes mais se contente de préciser que l’auteur souhaite apporter un éclairage sur un passage donné.
 
 			<dl>
@@ -591,18 +591,18 @@ gentop('Cahier des charges de Papyrus','container');
 
 		<dt>Résolution de notation</dt>
 		<dd>
-		Il se peut que, compte tenu des fonctionalités sémantiques formelle présentées par Papyrus, certainse notations d’origine (d’ouvrages apparus avantla mise au point du format Papyrus) deviennent obsolotette car redondantes avec le traitement formel de Papyrus (Par exemple, l’avertissement de contenu qui n’a plus lieux d’être mentionné en toute lettres car traité par la fonctionnalité adequate). toute fois, pour préserver une trace du contenu original de l’auteur innitial, un champ est prévu.
+		Il se peut que, compte tenu des fonctionalités sémantiques formelles présentées par Papyrus, certaines notations d’origine (d’ouvrages apparus avant la mise au point du format Papyrus) deviennent obsolètes car redondantes avec le traitement formel de Papyrus (Par exemple, l’avertissement de contenu qui n’a plus lieux d’être mentionné en toute lettres car traité par la fonctionnalité adequate). Toutes fois, pour préserver une trace du contenu original de l’auteur initial, un champ est prévu.
 		</dd>
 
 		<dt>Exercice (pédagogie)</dt>
 		<dd>
-		Lorsqu’un ouvrage pdéagogique propose au lecteur une évaluation auto-corrective, les réponses sont cachées. Sinon, Elles sont simplement abscentes.<br />
+		Lorsqu’un ouvrage pédagogique propose au lecteur une évaluation auto-corrective, les réponses sont cachées. Sinon, Elles sont simplement abscentes.<br />
 		Il est aussi possible d’associer un nombre de point à chaque question.
 		</dd>
 
 		<dt>Surprise</dt>
 		<dd>
-		Il arrive que l’auteur veuille préserver un effet affin qu’il apparaisse subitement au lecteur. Dans le cas d’un livre en papier, celà forcera les feuille de style à placer le passage surprenant en début de page.
+		Il arrive que l’auteur veuille préserver un effet afin qu’il apparaisse subitement au lecteur. Dans le cas d’un livre en papier, celà forcera les feuille de style à placer le passage surprenant en début de page.
 		</dd>
 	</dl>
 	
@@ -610,7 +610,7 @@ gentop('Cahier des charges de Papyrus','container');
 	
 	<h2>Éditions et versionnement</h2>
 	<p>
-	Lorsque plusieurs versions d’un même ouvrage existent, un seul papyrus peut les contenir. Les différentes versions, qui chacune peuvent avoir tous les types de méta-données para-textuelles propres que le papyrus même, sont définie en entête. En suite, deux choix s’offre à l’auteur.<br />
+	Lorsque plusieurs versions d’un même ouvrage existent, un seul papyrus peut les contenir. Les différentes versions, qui chacune peuvent avoir tous les types de méta-données para-textuelles propres que le papyrus même, sont définies en en-tête. Ensuite, deux choix s’offrent à l’auteur.<br />
 	Soit les versions ne diffèrent entre elles que pour certains passages dans ce cas seuls ces passages feront l’objet d’une précision par des champs spéciaux.<br />
 	Soit les deux œuvres sont très différentes et il est nécessaire que tout le contenu de chaque œuvre soit à part.
 	</p>
@@ -622,7 +622,7 @@ gentop('Cahier des charges de Papyrus','container');
 	<dl>
 		<dt>Versions circonstantielles</dt>
 		<dd>
-		Désire de faire des versions spécifiques à des régions, des communautés culturelles, certains types de personnes identifiées par leur genre, la tranche d’âge ou la profession.
+		Désir de faire des versions spécifiques à des régions, des communautés culturelles, certains types de personnes identifiées par leur genre, la tranche d’âge ou la profession.
 		</dd>
 
 		<dt>Censure</dt>
@@ -632,31 +632,31 @@ gentop('Cahier des charges de Papyrus','container');
 
 		<dt>Auto-censure</dt>
 		<dd>
-		Cas particulier de la censoure où l’auteur, sachant d’office la réaction de l’entité répressive, renonce à publier un passage.
+		Cas particulier de la censure où l’auteur, sachant d’office la réaction de l’entité répressive, renonce à publier un passage.
 		</dd>
 
 		<dt>Addenda</dt>
 		<dd>
-		Amélioration post-publicatoire
+		Amélioration post-publicatoire.
 		</dd>
 
 		<dt>Annulation</dt>
 		<dd>
-		Lorsqu’une annulation de modification s’oppére, les traces de cette modification ne sont pas suprimées mais marquées comme caduque affin de maintenir une traçabilité des différentes versions.
+		Lorsqu’une annulation de modification s’oppère, les traces de cette modification ne sont pas suprimées mais marquées comme caduques afin de maintenir une traçabilité des différentes versions.
 		</dd>
 	<dl>
 
 	<p>
-	Évidement, un champ permet à l’auteur de s’exprimer sur les raisons de la publication d’une édition différente dans son ensemble ou de justifier chaque passage.
+	Évidemment, un champ permet à l’auteur de s’exprimer sur les raisons de la publication d’une édition différente dans son ensemble ou de justifier chaque passage.
 	</p>
 	
 	<h2>Les précisions de type paléographique</h2>
-	Ces précisions cherchent à montrer un changement entre une anciènne graphie d’un mot utilisé.
+	Ces précisions cherchent à montrer un changement entre une ancienne graphie d’un mot utilisé.
 	
 	<dl>
-		<dt>Les abreviations médievalles</dt>
+		<dt>Les abréviations médiévales</dt>
 		<dd>
-			Le moyen âge ayant usé d’un florillège d’abreviation, leur pavillonage est rendu possible pour la rétro-compatibilité Paléographique. Ansi les abreviations médievalles se déclinent
+			Le Moyen-Âge ayant usé d’un florilège d’abréviation, leur pavillonage est rendu possible pour la rétro-compatibilité paléographique. Ansi les abréviations médiévales se déclinent.
 			
 			<dl>
 				<dt>La contraction</dt>
@@ -671,18 +671,18 @@ gentop('Cahier des charges de Papyrus','container');
 				
 				<dt>Les logogrammes et symboles divers</dt>
 				<dd>
-					Des mots ou des syllabes entières peuvent être remplacés par un signe unique, que ce soient des ligatures (cf. esperluette) ou des lettres modifiées (barrées, surmontées de symboles, du titulus et autres signes). Ce simbole devra alors être joint en tant qu’image.
-					Les notes tironiennes, par exemple, ont fourni un grand nombre d’abréviations de ce type, qui abondent surtout dans les manuscrits de droit .
+					Des mots ou des syllabes entières peuvent être remplacés par un signe unique, que ce soient des ligatures (cf. esperluette) ou des lettres modifiées (barrées, surmontées de symboles, du titulus et autres signes). Ce symbole devra alors être joint en tant qu’image.
+					Les notes tironiennes, par exemple, ont fourni un grand nombre d’abbréviations de ce type, qui abondent surtout dans les manuscrits de droit . <!-- notes tironniennes ? turonniennes * ? -->
 				</dd>
 				
 				<dt>La substitution du <span class="autology">-us</span> (ou autre) par un <span class="autology">-x</span> ou <span class="autology">-<sup>9</sup></span> (ou autre)</dt>
 				<dd>
-					Comme la substitution du -us par le -x ou par un un-9 en éxposant était une pratique courante dans de bombreux manuscrits, Le PAP la reprends avec la possibilité de précisé le substitué et le substituant.
+					Comme la substitution du -us par le -x ou par un un-9 en exposant était une pratique courante dans de nombreux manuscrits, Le PAP la reprend avec la possibilité de préciser le substitué et le substituant.
 				</dd>
 				
 				<dt>Lettre suscrite</dt>
 				<dd>
-					Le mot est tronqué par contraction (on ne garde que la ou les premières lettres) et la finale (ou les finales) est écrite en hauteur, dans un petit format.
+					Le mot est tronqué par contraction (on ne garde que la ou les premières lettres) et la finale (ou les finales) est écrite en hauteur, dans un petit format. <!-- Sensation de déjà vu... dans les abbréviations -->
 				</dd>
 			</dl>
 		</dd>
@@ -699,16 +699,16 @@ gentop('Cahier des charges de Papyrus','container');
 	Outre le texte même, est souvent joint à un ouvrage différents textes ou éléments périfériques.
 	</p>
 	<p>
-	Que se soit les différents, préambules, avant propos, notice, l’avis au lécteur, préfaces, Postface, avertissement, introductions, discours préliminaire, épilogue, léttre(s) ouverte(s), et autre éléments préambulatoire de l’auteur/traducteur/editeur et texte de tete des différents éditeurs/auteurs/traducteurs, post-scriptum. Mais aussi des informations compte à la propriété intélléctuelle, le nom, la déscription de la licence, le nom de ou des auteurs/éditeurs/traducteur, la date de parution, le déstinataire du document, les différentes éditions/représentations, ainsi que les crédits et le résumé des crédits, mes aussi les annexes, les apendices, les dossiers joints, l’ISBN/ISSN la discipline/domaine/mouvement auquel appartient l’ouvrage, le genre, la classification selon deleway, selon le système décimal et/ou selon un autre sysème dont le nom sera précisé, Une citation préambulatoire, Le dépot légal, l’édition, la date d’édition, information sur l’édition, ainsi que la manière dont à été édité l’ouvrage, la Bibliothéque distribuant l’ouvrage, des information sur l’édition en PAP, le frontispice, les dédicasses, Le résumé de l’œuvre, le résumé de quatrième de couverture etc.</p>
-	Ces éléments sont extérieurs aux, texte même, le présente le précisent. Un champ est prévu pour chaque élément péritextuel. Tous ces éléments ne sont pas toujours utilisés en même temps par un ouvrage donné dans ce cas là
+	Que se soit un préambule, un avant-propos, une notice, un avis au lecteur, une préface, une postface, une avertissement, une introduction, des discours préliminaires, un épilogue, une/des lettre(s) ouverte(s), et autre éléments préambulatoire de l’auteur/traducteur/éditeur et texte de tête des différents éditeurs/auteurs/traducteurs, post-scriptum. Mais aussi des informations compte à la propriété intellectuelle, le nom, la description de la licence, le nom de ou des auteurs/éditeurs/traducteurs, la date de parution, le destinataire du document, les différentes éditions/représentations, ainsi que les crédits et le résumé des crédits, mes aussi les annexes, les appendices, les dossiers joints, l’ISBN/ISSN, la discipline/domaine/mouvement auxquels appartient l’ouvrage, le genre, la classification selon deleway <!--deleway ?-->, selon le système décimal et/ou selon un autre système dont le nom sera précisé, une citation préambulatoire, le dépot légal, l’édition, la date d’édition, information sur l’édition, ainsi que la manière dont à été édité l’ouvrage, la bibliothèque distribuant l’ouvrage, des information sur l’édition en PAP, le frontispice, les dédicaces, le résumé de l’œuvre, le résumé de quatrième de couverture etc.</p>
+	Ces éléments sont extérieurs au texte même, ils le présentent, le précisent. Un champ est prévu pour chaque élément péri-textuel. Tous ces éléments ne sont pas toujours utilisés en même temps par un ouvrage donné dans ce cas là.
 	</p>
 	
 	<h2>Les informations sur l’auteur</h2>
 	
 	<h3>L’auteur</h3>
 	<p>
-	La raison du PAP est de propossé un fichier unique pour chaque ouvrage, dans ce fichier seront réunie en définitive toutes les verssions et toutes les informations connues de l’œuvre. Une biographie de l’auteur par exemple n’a pas sa place dans le PAP car elle peut être variable, de plus elle concerne plus l’auteur que l’œuvre même alors que le fait de connaitre le nom de l’auteur suffirait pour pouvoir en retrouver une biographie, idem pour une adresse de jonction de l’auteur, d’autant que cette derrnière peut être vraiment très variable au cour du temps, voir innutile aprés la mort de l’auteur. Néanmoins, pour un minimum d’indépendance, il est tout de même possible d’intégrer certaines de ces informations dans le champ complexe des information variable, le fait de placer ces information dans ce champ informe de leur éxtrême variabilité et du fait qu’il ne sont donnés qu’à titre indicatif.<br />
-	Comme ces informations varrient, leur différentes verssions connues à un moment donné, réstent enregistrée dans le PAP pour des raisons de philologie, avec en sous-champ la date d’abondon.
+	La raison du PAP est de proposer un fichier unique pour chaque ouvrage, dans ce fichier seront réunis en définitive toutes les versions et toutes les informations connues de l’œuvre. Une biographie de l’auteur par exemple n’a pas sa place dans le PAP car elle peut être variable, de plus elle concerne plus l’auteur que l’œuvre même alors que le fait de connaître le nom de l’auteur suffirait pour pouvoir en retrouver une biographie, idem pour une adresse de jonction de l’auteur, d’autant que cette dernière peut être vraiment très variable au cour du temps, voire inutile après la mort de l’auteur. Néanmoins, pour un minimum d’indépendance, il est tout de même possible d’intégrer certaines de ces informations dans le champ complexe des information variable, le fait de placer ces information dans ce champ informe de leur extrême variabilité et du fait qu’il ne sont donnés qu’à titre indicatif.<br />
+	Comme ces informations varient, leur différentes versions connues à un moment donné, restent enregistrée dans le PAP pour des raisons de philologie, avec en sous-champ la date d’abondon.
 	</p>
 
 	<p>
@@ -718,16 +718,16 @@ gentop('Cahier des charges de Papyrus','container');
 	
 	<h2>Multiplicité d’auteurs</h2>
 	<p>
-	Lorsqu’il y a plusieurs pérsonne à avoir apportée leur travail à l’ouvrage chacune doit être citée avec le droit au mêmes champs comme cité plus haut.<br />
-	Et comme il est forcément besoin de classer les auteurs il existe des groupes, Les auteurs pricipaux, les post-contributeurs, les commentateurs, les correcteurs sémiques, les correcteurs linguistiques, les traducteurs, et puis les éditeurs.
+	Lorsqu’il y a plusieurs personnes à avoir apporter leur travail à l’ouvrage chacune doit être citée avec le droit aux mêmes champs comme cité plus haut.<br />
+	Et comme il est forcément besoin de classer les auteurs il existe des groupes, les auteurs pricipaux, les post-contributeurs, les commentateurs, les correcteurs sémiques, les correcteurs linguistiques, les traducteurs, et puis les éditeurs.
 	</p>
 	
 	<p>
-	Dans chaque groupe seront hyérarchisé les auteurs par importance, d’abbord l’ordre chronologique qui fera apparaître en premier, l’initiateur, celui qui a amorcer le projet de l’ouvrage, ou sinon la première personne, dans l’ordre chronologique à avoir collaborée à l’ouvrage en tant que membre d’un groupe.<br />
-	Si des auteurs ont initier en même temps le projet de l’ouvrage alors le classement fera figurer en premier lieux les auteurs étant réstés le plus lontemps au sein du projet (cas assez rare).<br />
+	Dans chaque groupe seront hiérarchisé les auteurs par importance, d’abord l’ordre chronologique qui fera apparaître en premier, l’initiateur, celui qui a amorcer le projet de l’ouvrage, ou sinon la première personne, dans l’ordre chronologique à avoir collaborée à l’ouvrage en tant que membre d’un groupe.<br />
+	Si des auteurs ont initié en même temps le projet de l’ouvrage alors le classement fera figurer en premier lieu les auteurs qui sont restés le plus longtemps au sein du projet (cas assez rare).<br />
 	En cas d’égalité entre un où plusieurs auteurs, ce sera le point de vue, dans le cas où l’ouvrage soit écrit majoritairement sous le point de vue d’un auteur particulier (cas assez rare).<br />
-	Sinon, ce sera l’ordre d’apparition dans le texte, par exemple, pour un récit épistolaire ce sera l’auteur qui est à l’origine du premier message sauf si le sujet de l’ouvrage porte éssentiellement sur un autre auteur.<br />
-	Si malgrés tout les auteurs réstent à égalité jusque là, alors la parole sera à l’ordre alphabétique.
+	Sinon, ce sera l’ordre d’apparition dans le texte, par exemple, pour un récit épistolaire ce sera l’auteur qui est à l’origine du premier message sauf si le sujet de l’ouvrage porte essentiellement sur un autre auteur.<br />
+	Si malgré tout les auteurs restent à égalité jusque-là, alors la parole sera à l’ordre alphabétique.
 	</p>
 	
 	<p>
@@ -740,25 +740,25 @@ gentop('Cahier des charges de Papyrus','container');
 	</p>
 	
 	<p>
-	À tous les péritextes, sont joint le nom de l’auteur particulier de ce péritexte, la date de rédaction du péritexte, la langue de publication, l’occasion de la publication, la raison de la rédaction de ce péritexte, le lieux de publication et la date de publication. Avec cela il est en plus possible de faire des nominations selon les mentions cochée par l’auteur/éditeur (par exemple, "préface de l’édition belege en néérlandais de l’année X par Monsieur Y").
+	À tous les péritextes sont joints le nom de l’auteur particulier de ce péritexte, la date de rédaction du péritexte, la langue de publication, l’occasion de la publication, la raison de la rédaction de ce péritexte, le lieux de publication et la date de publication. Avec cela il est en plus possible de faire des nominations selon les mentions cochée par l’auteur/éditeur (par exemple, "préface de l’édition belge en néérlandais de l’année X par Monsieur Y").
 	</p>
 	
 	<h3>Les Péritextes primaires</h3>
 	<p>
-	Sont regroupés sous cette dénomination, l’enssemble des péritexte de qualité érudie, il peut y’en avoir, en sous champ autant que nécessaire et tous supportent toutes les fonctionnalités de chapitrage et de pavillonage et les Les précisions de type paléographique.
+	Sont regroupés sous cette dénomination, l’ensemble des péritexte de qualité érudie, il peut y’en avoir, en sous champ autant que nécessaire et tous supportent toutes les fonctionnalités de chapitrage et de pavillonage et les les précisions de type paléographique.
 	</p>
 	
 	<dd>
 		<dt>La préface</dt>
 		<dd>
 		Une préface un texte d’introduction et de présentation. Placé en tête d’un livre, il en fait connaître les vues, le plan, prévient des objections ou répond à des critiques.<br />
-		Dans la préface l’auteur éxplique certains choix et se déffends de certaines critiques.
+		Dans la préface l’auteur explique certains choix et se défends de certaines critiques.
 		</dd>
 		
 		<dt>Le préambule</dt>
 		<dd>
 		Le préambule est un éclaircissement préliminaire plus ou moins utile, il donne un avant-goût de l’ouvrage, en marque le caractère et la portée, ou résume les événements accomplis antérieurement au récit.<br />
-		Un préambule fait donc pluto partie du corps même du corps du texte principal que des élément d’éxcorte mais il reviendra toute foi à la feuille de style d’en définir la position lors de l’impression.
+		Un préambule fait donc plutôt partie du corps même du corps du texte principal que des élément d’excorte mais il reviendra toutefois à la feuille de style d’en définir la position lors de l’impression.
 		</dd>
 		
 		<dt>La notice</dt>
@@ -766,19 +766,19 @@ gentop('Cahier des charges de Papyrus','container');
 		En réalité, les éléments présent dans la notice jouissent de champs a part entière dans le PAP, La notice ne peut donc que contenir un texte précisant comment trouver le texte dans une bibliothéque
 		</dd>
 		
-		<dt>L’avis au lécteur</dt>
+		<dt>L’avis au lecteur</dt>
 		<dd>
 		L’avis au lecteur est un élément du paratexte d’un ouvrage placé par l’auteur ou l’éditeur au début de celui-ci afin de fournir au lecteur des informations jugées nécessaires pour la compréhension ou surtout l’acceptation de l’œuvre. Il peut s’agir d’un avertissement concernant le caractère choquant de la suite d’un roman ou encore signalant l’intention de l’écrivain afin qu’elle ne soit pas mal interprétée si elle risque de l’être.
 		</dd>
 		
 		<dt>La postface</dt>
 		<dd>
-		Joue le même rôle que la préface à savoir que c’est un texte d’avertissement ou de commentaire placé à la fin d’un ouvrage, rédigé par l’auteur ou par une autre personne. évidement, la postion de l’élément relève du formatage mais la préface recèle des information d’un ordre différent de la préface.
+		Joue le même rôle que la préface à savoir que c’est un texte d’avertissement ou de commentaire placé à la fin d’un ouvrage, rédigé par l’auteur ou par une autre personne. Évidemment, la position de l’élément relève du formatage mais la préface recèle des informations d’un ordre différent de la préface.
 		</dd>
 		
 		<dt>L’avertissement</dt>
 		<dd>
-		Il s’agit d’un Texte préliminaire de l’ouvrage destiné à éclairer le lecteur
+		Il s’agit d’un texte préliminaire de l’ouvrage destiné à éclairer le lecteur
 		</dd>
 
 	</dd>
@@ -810,31 +810,31 @@ gentop('Cahier des charges de Papyrus','container');
 	<h1>Passages spéciaux</h1>
 	
 	<p>
-	Dans le corps de texte, certains passage réclament une identification spéciale, ces identifications sont regroupées dans ce chapitre. La différence d’avec les option de corps de texte étant que les passages spéciaux peuvent regroupé plusieurs ligne tandisque une option de corps est souvent un formatage spécial contenu dans une phrase normale. Dans les supports intéractifs on préfférera à l’affichage "à la suite" du texte, un affichage "isolé", une partition, un code source où une equation par exemple seront affiché dans une partie de l’écran différente pour que le lecteur puisse continuer à lire le doccument tout en ayant le passage spécial sous les yeux, car souvent la suite du texte traite de ce passage. C’est encore plus vrais pour le visionnage d’un videograme ou pour l’écoute d’un audiograme.
+	Dans le corps de texte, certains passages réclament une identification spéciale, ces identifications sont regroupées dans ce chapitre. La différence d’avec les options de corps de texte étant que les passages spéciaux peuvent regrouper plusieurs ligne tandis qu’une option de corps est souvent un formatage spécial contenu dans une phrase normale. Dans les supports intéractifs on préférera à l’affichage "à la suite" du texte, un affichage "isolé", une partition, un code source où une équation par exemple seront affiché dans une partie de l’écran différente pour que le lecteur puisse continuer à lire le doccument tout en ayant le passage spécial sous les yeux, car souvent la suite du texte traite de ce passage. C’est encore plus vrai pour le visionnage d’un vidéograme ou pour l’écoute d’un audiograme. <!-- C'est pas le rôle du reader ça aussi ? -->
 	</p>
 	
 	<h2>Les sous-numérotation et liste</h2>
-	Indépendament du chapitrage principal, peuvent apparaître dans le corps de texte certaines listes, parfoit numérotées. Il peuvent paraitre redondant mais assez souvent leur utilisation est indépandante de la hierarchie de chapitrage, cela peut être une liste de taches par exemple, le PAP prévois deux type de listes :
+	Indépendemment du chapitrage principal peuvent apparaître dans le corps de texte certaines listes, parfois numérotées. Il peuvent paraître redondant mais assez souvent leur utilisation est indépandante de la hiérarchie de chapitrage, cela peut être une liste de tâches par exemple, le PAP prévois deux type de listes :
 	
 	<h3>Liste numérotées</h3>
 	Il s’agit de listes toutes simples, avec une infinité de sous parties que nécessaire. Chaque partie pouvant contenir plusieurs "paragraphe" dans le "corps de texte".
 	
-	<h3>Les listes à point</h3>
+	<h3>Les listes à point</h3> <!--Listes à puces ?-->
 	Il s’agit de listes très simples ne disposant d’aucune forme de numérotation ni de hierarchie.
 	
 	
-	<h2>Les insérssions d’objet</h2>
-	Est reconnu par "objet", toute ressource pas forcément textuelle pourtant inséré en milieur du corps de texte (typiquement des images, des tableaux, des videos, des sons)
+	<h2>Les insertions d’objet</h2>
+	Est reconnu par "objet" toute ressource pas forcément textuelle pourtant insérée en milieu du corps de texte (typiquement des images, des tableaux, des videos, des sons, ...).
 	
 	<h3>Les images</h3>
-	L’insértion d’image est riche en parametre :
+	L’insertion d’image est riche en paramètre :
 	
 	<ul>
-	<li>L’ancrage, précise comment l’image doit être encrée par rapport au texte, trois mode existent : au paragraphe : le texte longe l’image de gauche et de droite ; Comme caractère : L’image est bordée par deux carractères, elle est littéralement traitée comme un carractère donc ; Unique : L’image se retrouve au millieu d’une ligne suivant un mot ; Page/écran total, l’image prends une page entière, cela peut être la Nième (souvent première) page suivant ou précédant immédiattement un mot.</li>
+	<li>L’ancrage précise comment l’image doit être encrée par rapport au texte, trois mode existent : au paragraphe : le texte longe l’image de gauche et de droite ; Comme caractère : L’image est bordée par deux caractères, elle est littéralement traitée comme un caractère donc ; Unique : L’image se retrouve au milieu d’une ligne suivant un mot ; Page/écran total, l’image prends une page entière, cela peut être la N-ième (souvent première) page suivant ou précédant immédiatement un mot.</li>
 	
-	<li>La position en largeur, est obligatoir sauf quand l’option unique du parametre d’ancrage est activée. La position en largeur connais quatres possibilité "milieur", "gauche", "droite" et "pourcentage" ou la position de l’image doit être définie en pourcentage (le plus à gauche est 0% et le plus a droite 100%).</li>
+	<li>La position en largeur, est obligatoire sauf quand l’option unique du paramètre d’ancrage est activée. La position en largeur connaît quatres possibilités : "milieu", "gauche", "droite" et "pourcentage" où la position de l’image doit être définie en pourcentage (le plus à gauche est 0% et le plus a droite 100%).</li>
 	
-	<li>Condition d’apparition, il existe deux manière de placer une image, l’une absolue l’autre relative. De manière générale, une image peut n’apparaître que X.x vue/page/écran, avant ou aprés l’apparition d’un passage, il s’agit de l’apparition relative. Sinon, lorceuque l’on veut qu’une image apparaisse à un moment fixe, pour l’ancrage au paragraphe, il faudra définir le premier caractère a droite de l’image ; Idem pour l’encrage en caractère ; Pour l’encrage unique il s’agit de définir quel ligne précède l’apparition de l’image.</li>
+	<li>Condition d’apparition, il existe deux manières de placer une image, l’une absolue, l’autre relative. De manière générale, une image peut n’apparaître que X.x vue/page/écran, avant ou aprés l’apparition d’un passage, il s’agit de l’apparition relative. Sinon, lorceuque l’on veut qu’une image apparaisse à un moment fixe, pour l’ancrage au paragraphe, il faudra définir le premier caractère a droite de l’image ; Idem pour l’encrage en caractère ; Pour l’encrage unique il s’agit de définir quel ligne précède l’apparition de l’image.</li>
 	</ul>
 	
 	<h3>Les tableaux</h3>
@@ -896,7 +896,7 @@ gentop('Cahier des charges de Papyrus','container');
 		</dd>
 	</dl>
 	
-	ces commandes peuvent evidement, agire entre elle avec des boucles et des conditions.
+	ces commandes peuvent evidemment, agire entre elle avec des boucles et des conditions.
 	</section>
 <?php
 genbottom();
