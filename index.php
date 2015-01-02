@@ -151,8 +151,10 @@ gentop('Cahier des charges de Papyrus','container');
 	<p>
 	Bien qu’il y ai un "titre" et une "numérotation" incrémentielle unique pour chaque "niveau", il existe une numérotation parallèle, la "pseudo-numérotation" que l’auteur peut choisir pour toutes les branches d’un niveau que pour un branchage particulier ou pour une ou des branches particulières. Ainsi, il peut définir de quelle manière avance sa numérotation en précisant une fonction mathématique sur le numéro de branche (décrémentitiel, tendant vers un nombre particulier au N-ième près, etc) ou de donner explicitement les numéros qu’il veut voir figurer pour chaque "branche". L’auteur peut même décider si la numérotation redémmare du point de départ à chaque branchage ou si elle continue au branchage suivant (il s’agit d’une numérotation transcendantale).
 	</p>
-	
+
+	<p>
 	Par exemple :
+	</p>
 	<blockquote>
 	<ul>
 	<li>
@@ -173,8 +175,10 @@ gentop('Cahier des charges de Papyrus','container');
 	</li>
 	</ul>
 	</blockquote>
-	
+
+	<p>	
 	Peut être remplacé par :
+	</p>
 	<blockquote>
 	<ul>
 		<li>
@@ -814,21 +818,28 @@ gentop('Cahier des charges de Papyrus','container');
 	</p>
 	
 	<h2>Les sous-numérotation et liste</h2>
+	<p>
 	Indépendemment du chapitrage principal peuvent apparaître dans le corps de texte certaines listes, parfois numérotées. Il peuvent paraître redondant mais assez souvent leur utilisation est indépandante de la hiérarchie de chapitrage, cela peut être une liste de tâches par exemple, le PAP prévois deux type de listes :
 	
+	</p>
 	<h3>Liste numérotées</h3>
+	<p>
 	Il s’agit de listes toutes simples, avec une infinité de sous parties que nécessaire. Chaque partie pouvant contenir plusieurs "paragraphe" dans le "corps de texte".
+	</p>
 	
 	<h3>Les listes à point</h3> <!--Listes à puces ?-->
+	<p>	
 	Il s’agit de listes très simples ne disposant d’aucune forme de numérotation ni de hierarchie.
-	
+	</p>
 	
 	<h2>Les insertions d’objet</h2>
-	Est reconnu par "objet" toute ressource pas forcément textuelle pourtant insérée en milieu du corps de texte (typiquement des images, des tableaux, des videos, des sons, ...).
-	
+	<p>	
+Est reconnu par "objet" toute ressource pas forcément textuelle pourtant insérée en milieu du corps de texte (typiquement des images, des tableaux, des videos, des sons, ...).
+	</p>
 	<h3>Les images</h3>
-	L’insertion d’image est riche en paramètre :
-	
+	<p>
+	L’insertion d’image est riche en paramètres.
+	</p>
 	<ul>
 	<li>L’ancrage précise comment l’image doit être encrée par rapport au texte, trois mode existent : au paragraphe : le texte longe l’image de gauche et de droite ; Comme caractère : L’image est bordée par deux caractères, elle est littéralement traitée comme un caractère donc ; Unique : L’image se retrouve au milieu d’une ligne suivant un mot ; Page/écran total, l’image prends une page entière, cela peut être la N-ième (souvent première) page suivant ou précédant immédiatement un mot.</li>
 	
@@ -838,66 +849,83 @@ gentop('Cahier des charges de Papyrus','container');
 	</ul>
 	
 	<h3>Les tableaux</h3>
+	<p>
 	Ils ont des paramètres similaires à ceux des images.
-	
+	</p>
+
 	<h3>Les audiogrames et vidéogrammes</h3>
-	La encore affin d’ajouter un audiograme, il est possible d’ajouter des commandes de préouverture selon l’apparition d’un texte à l’écran
-	
+	<p>
+	Là encore afin d’ajouter un audiograme, il est possible d’ajouter des commandes de préouverture selon l’apparition d’un texte à l’écran.
+	</p>
+
 	
 	<h1>Les balises textuelles</h1>
-	Tout le texte est parssemé de précisions, certaines tenant des modifications apportées au texte au file de son éxistance, compte au définitions où à l’éxplication de certains mots, ou encore compte au notes de traduction, à la collaboration de différents de différents auteurs, ou des notes de bas de pages originelles.
-	
-	<h2>Les balises de corréspondance manuscrite</h2>
-	Un PAP peut aussi embarquer une numérisation d’un manuscrit, un fac-similé de l’œuvre où un enregistrement phonographique de la lecture de celle-ci, dans ce cas un travail est fait sur la correspondance entre chaque caractère dans le corps de texte du PAP et son équivalent dans l’image de numérisation et/ou dans l’enregistrement phonographique.
-	
-	<h2>Les balises de modiffication</h2>
-	Les balises auctorial les permettent d’indiquer tout changement apporté au texte au file du temps ainsi que la date et les personnes qui ont apporter ces modifications, la période où ces modifications on étée appliquées, ainsi que les raisons de ses modifications. Cela peut aussi être une traduction.
-	
-	Typiquement, chaque morceau de texte est rattaché à un auteur (lorsque plusieurs auteurs ont apportés des modiffications), une date de rédaction du passage, les raisons de la modification (Scensure, meilleur expression, adaptation etc...), De même que les circonstances de la première modiffication et la forme dont elle à été annoncée (par note de bas de page, par notice etc) et, éventuellement, le texte de justiffication joint par l’auteur. Les balises de modiffication contiennent donc toutes les verssions d’une œuvre.
+	<p>
+	Tout le texte est parsemé de précisions, certaines tenant des modifications apportées au texte au fil de son existence, compte au définitions où à l’explication de certains mots, ou encore compte au notes de traduction, à la collaboration de différents auteurs, ou des notes de bas de pages originelles.
+	</p>
+	<h2>Les balises de correspondance manuscrite</h2>
+	<p>
+Un PAP peut aussi embarquer une numérisation d’un manuscrit, un fac-similé de l’œuvre où un enregistrement phonographique de la lecture de celle-ci, dans ce cas un travail est fait sur la correspondance entre chaque caractère dans le corps de texte du PAP et son équivalent dans l’image de numérisation et/ou dans l’enregistrement phonographique.
+	</p>
+	<h2>Les balises de modification</h2>
+	<p>	
+Les balises autoriales les permettent d’indiquer tout changement apporté au texte au file du temps ainsi que la date et les personnes qui ont apporter ces modifications, la période où ces modifications on étée appliquées, ainsi que les raisons de ses modifications. Cela peut aussi être une traduction.
+	</p>
+<p>
+	Typiquement, chaque morceau de texte est rattaché à un auteur (lorsque plusieurs auteurs ont apportés des modifications), une date de rédaction du passage, les raisons de la modification (Censure, meilleure expression, adaptation etc...), De même que les circonstances de la première modification et la forme dont elle a été annoncée (par note de bas de page, par notice etc) et, éventuellement, le texte de justiffication joint par l’auteur. Les balises de modification contiennent donc toutes les versions d’une œuvre.
+</p>
 	
 	<h2>Les balises de traduction</h2>
-	Les balises de traduction sont de deux types : les balises de correspondance de traduction et les balises de notice. Un PAP étant sensé comporté toutes les versions, même linguistiques d’un ouvrage, il existe donc plusieurs champs, ici les balises de traduction font le lien entre les phrases correspondante dans chaque verssion linguistique.
-	Les balises de notice, compte à elles, contiennent pour champs, les justiffication données par le traducteur ainsi qu’un champ spécial pour l’auteur orriginel.
-	
+<p>	
+Les balises de traduction sont de deux types : les balises de correspondance de traduction et les balises de notice. Un PAP étant sensé comporter toutes les versions, même linguistiques d’un ouvrage, il existe donc plusieurs champs, ici les balises de traduction font le lien entre les phrases correspondante dans chaque version linguistique.
+</p>
+<p>
+	Les balises de notice, compte à elles, contiennent pour champs, les justification données par le traducteur ainsi qu’un champ spécial pour l’auteur orriginel.
+</p>	
 	<h2>La précision du contexte</h2>
+<p>
 	Des balises peuvent préciser le contexte concernant un passage.
+</p>
 	
 	<h2>La définition</h2>
-	Certains mots polissémiques peuvent avoir une signification très particulière dans l’œuvre, dans ce cas, des balises spéciales précisent
+	<p>	
+Certains mots polysémiques peuvent avoir une signification très particulière dans l’œuvre, dans ce cas, des balises spéciales précisent.
+	</p>
 	
-	
-	<h1>Les variables circonstancielles</h1>
-	Le PAP fournit aussi un certain nombre de fonctionnalité pouvant s’adapté aux situations spacio-temporèlles et même éditorialles. Ainsi, selon qu’une image soit à gauche, en haut en bas ou dans une autre page qu’un revois vers celle-ci (typiquement les "ci-contre", ci-bas) ou que l’auteur veuille faire allusion à la date ou au lieu de lecture des commandes existent à cet effet.
-	
+	<h1>Les variables circonstancielles</h1> 
+	<p>	
+Le PAP fournit aussi un certain nombre de fonctionnalités pouvant s’adapter aux situations spacio-temporelles et même éditorielles. Ainsi, selon qu’une image soit à gauche, en haut en bas ou dans une autre page qu’un revois vers celle-ci (typiquement les "ci-contre", ci-bas) ou que l’auteur veuille faire allusion à la date ou au lieu de lecture des commandes existent à cet effet.
+	</p>
 	<dl>
 		<dt>date</dt>
 		<dd>
-		cette commande permet d’insérer la date de lecture lorsequ’il s’agit d’un support intéractif s’il peut la fournire et une suite de mot, (typiquement : "au moment où vous lisez"), choisit par l’auteur pour les supports figés comme une impression sur papier. L’auteur pourra, pour les support intéractifs, choisir la précision de la date (au Nième prét), son formatage et la manière dont apparait la date, si elle doit être cariable en temps réel sous les yeux du lecteur agissant comme une montre, si elle doit être figée à la date à laquelle le lecteur a ouvert le PAP ou si elle doit être figée à la date à laquelle sa mention apparait à l’écran du lecteur.
+		Cette commande permet d’insérer la date de lecture lorsequ’il s’agit d’un support intéractif s’il peut la fournir et une suite de mot, (typiquement : "au moment où vous lisez"), choisit par l’auteur pour les supports figés comme une impression sur papier. L’auteur pourra, pour les support intéractifs, choisir la précision de la date (au Nième prét), son formatage et la manière dont apparait la date, si elle doit être cariable en temps réel sous les yeux du lecteur agissant comme une montre, si elle doit être figée à la date à laquelle le lecteur a ouvert le PAP ou si elle doit être figée à la date à laquelle sa mention apparait à l’écran du lecteur.
 		</dd>
 	
-		<dt>lieux</dt>
+		<dt>place</dt>
 		<dd>
-		Cette commande permet d’insérer le lieux où le lécteur se situe au moment de la lecture pour les supports intéractifs si le dit support peut le fournir. et une suite de mot, (typiquement : "à l’endroit où vous étes"), choisit par l’auteur pour les supports figés comme une impression sur papier. comme pour /date la précision (si disponible) pourra être choisie (Pays, région, colléctivité, ville, cartier, adresse postalle, coordoonée polaire etc). et bénéficiera d’options analogues à /date : si elle doit être variable en fonction du déplacement (si le dispositif de lecture peut fournir une situation spatiale en temps réél) sous les yeux du lecteur agissant comme une boussone, si elle doit être figée au lieux où le lecteur a ouvert le PAP ou si elle doit être figée au lieux où sa mention apparait à l’écran du lecteur.
+		Cette commande permet d’insérer le lieu où le lecteur se situe au moment de la lecture pour les supports intéractifs si le-dit support peut le fournir, et une suite de mot, (typiquement : "à l’endroit où vous êtes"), choisi par l’auteur pour les supports figés comme une impression sur papier, comme pour /date la précision (si disponible) pourra être choisie (Pays, région, collectivité, ville, cartier, adresse postalle, coordoonée polaire etc). et bénéficiera d’options analogues à /date : si elle doit être variable en fonction du déplacement (si le dispositif de lecture peut fournir une situation spatiale en temps réél) sous les yeux du lecteur agissant comme une boussole, si elle doit être figée au lieux où le lecteur a ouvert le PAP ou si elle doit être figée au lieux où sa mention apparait à l’écran du lecteur.
 		</dd>
 	
 		<dt>name</dt>
 		<dd>
-		permet d’insérer des informations sur le lecteur pour les supports intéractifs quand ceux-cis sont disponibles, encore une fois toutes les options de /name peuvent être remplacée par un substitu choisit
+		Permet d’insérer des informations sur le lecteur pour les supports intéractifs quand ceux-cis sont disponibles, encore une fois toutes les options de /name peuvent être remplacée par un substitut choisi
 		</dd>
 	
-		<dt>periférique</dt>
+		<dt>periphérique</dt>
 		<dd>
-		permet d’inséerer des informations sur le périférique si celles-ci sont disponibles
+		Permet d’inséerer des informations sur le périphérique si celles-ci sont disponibles
 		</dd>
 	
 		<dt>objetposition<dt>
 		<dd>
-		Comme un document PAP est senssé etre affiché sur plusieurs types de formats la postion de certains "objets" peut varié d’une vue à l’autre, la commande /objetposition est donc substituée par la position de l’objet donné en paramatre par rapport à la mention de la commande. Cette commande reçoit néamoins un parametre suplémentaire qui précise si la commande à été choisie par l’auteur original qui a éditer son œuvre en PAP, ou si l’auteur n’a pas édité l’œuvre en PAP mais dans un format traditionnel et que la commande /objetposition est une adaptation d’une mention brute que l’auteur aurait choisie (et qui devra être précisée dans un champ spécial).
+		Comme un document PAP est sensé être affiché sur plusieurs types de formats, la position de certains "objets" peut varier d’une vue à l’autre, la variable /objetposition est donc substituée par la position de l’objet donné en paramètre par rapport à la mention de la variable. Cette variable reçoit néanmoins un paramètre supplémentaire qui précise si la commande à été choisie par l’auteur original qui a édité son œuvre en PAP, ou si l’auteur n’a pas édité l’œuvre en PAP mais dans un format traditionnel et que la variable /objetposition est une adaptation d’une mention brute que l’auteur aurait choisie (et qui devra être précisée dans un champ spécial).
 		</dd>
 	</dl>
-	
-	ces commandes peuvent evidemment, agire entre elle avec des boucles et des conditions.
-	</section>
+	<p>
+	Ces variables peuvent évidemment agir entre elles avec des boucles et des conditions.
+	</p>
+</section>
 <?php
 genbottom();
 ?>
