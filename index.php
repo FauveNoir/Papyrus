@@ -8,7 +8,7 @@ gentop('Cahier des charges de Papyrus','container');
 	<section id="title"><h1>Cahier des charges de <strong>Papyrus</strong></h1></section>
 
 	<section>
-	<h1>À propos du <abbr title="Papyrus">PAP</abbr></h1>
+	<h1>À propos du <abbr title="Papyrus">PAP</abbr> </h1>
 
 	<p>
 	Le PAP ou <em>Papyrus</em> est un format de fichier informatique servant à ordonner, de manière structurée et sémantique, tout type de texte de quelque discipline que ce soit, des textes littéraires aux publications scientifiques et de manière générale, ainsi que tout type de texte comportant des éléments para-textuels à ordonner sémantiquement, ou un chapitrage intra-textuel.
@@ -20,7 +20,7 @@ gentop('Cahier des charges de Papyrus','container');
 	</div>
 	
 	<p>
-	Le but du PAP est donc de séparer le fond de la forme mais surtout à rendre le fond plus sémantique, plus malléable et plus décritable.</br>
+	Le but du PAP est donc de séparer le fond de la forme mais surtout à rendre le fond plus sémantique, plus malléable et plus décritable.<br />
 	Le format Papyrus se focalise donc sur l’aspect sémantique d’un texte aux éléments complexes et à l’identification de ces différents éléments, appelés <q>champs</q>.<br />
 	Un champ est une unité isolable et, surtout, parfaitement identifiable sémantiquement par le format PAP pouvant être aussi bien du texte brut (généralement un passage de texte, un titre, une information) qu’un fichier binaire joint. Ainsi le PAP saurait reconnaître le corps de texte d’un chapitre, du titre du chapitre et du numéro de position du chapitre, par exemple.
 	</p>
@@ -293,7 +293,7 @@ gentop('Cahier des charges de Papyrus','container');
 		Certains ouvrages présentent un chapitrage non forcément obligatoire, voire même plusieurs possibilitées de chapitrage, c’est le cas de certains receuils par exemples qui peuvent aussi bien être organisés par date d’apparition, que par théme que par tout autre critère. Plus d’un chapitrage peut, donc être conseillé par l’auteur et être tous listés dans PAP, affin que le lécteur puisse passer de l’un à l’autre. L’auteur aura Cependant l’obligation de choisir un chapitrage principal et d’agencer les autre chapitrage selon un ordre numérique et peut même donner un titre à chaque chapitrage, et un texte de présentation du chapitrage.
 	</p>
 	<p>
-		En clair, les différents chapitrages sont complètement indépendants les uns des autres, et tous supportent les mêmes fonctionnalités de chapitrage.</br>
+		En clair, les différents chapitrages sont complètement indépendants les uns des autres, et tous supportent les mêmes fonctionnalités de chapitrage.<br />
 		En revanche, il existe une unité atomique qui ne peut être divisée, dans aucun plan : le "verset", l’auteur, si besoin peut définir chaque verset ainsi que les nomer et les pseudo-numérotés. <!-- What ? « les només »
 		— « Les nomER » oui, les versets peuvent être només.
 		-->
@@ -342,13 +342,13 @@ gentop('Cahier des charges de Papyrus','container');
 		
 		<dt>Le solfège (musique)</dt>
 		<dd>
-			Un mode "solfège" existe et la partition doit s’écrire dans le code de lylipond. Cependant deux sous mode existe, l’un pour préciser s’il s’agit du solfège européen ou du Jianpu, en vigeur dans le monde chinois.</br>
+			Un mode "solfège" existe et la partition doit s’écrire dans le code de lylipond. Cependant deux sous mode existe, l’un pour préciser s’il s’agit du solfège européen ou du Jianpu, en vigeur dans le monde chinois.<br />
 			Le passage battant pavillon solfégique pourra être joint en sous-champ d’un enregistrement des notes jouées.
 		</dd>
 		
 		<dt>Les codes source (informatique)</dt>
 		<dd>
-			Les codes source des programmes informatiques seront identifiés, et si le code source est celui d’un langage reconnu, il suffira de préciser le nom du langage. Pour les langages éxotiques, peu répandus ou récents, il sera possible de définir les spécificités de ce langage.<br />
+			Les codes source des programmes informatiques seront identifiés, et si le code source est celui d’un langage reconnu, il suffira de préciser le nom du langage. Pour les langages exotiques, peu répandus ou récents, il sera possible de définir les spécificités de ce langage.<br />
 			Pour les passages battant le pavillon du code source de programmation non-scriptale, il est possible de joindre en option un binaire compilé en précisant le nom et le numéro du noyau avec un compilateur avec lequel il a été compilé. Il est donc possible de joindre autant de binaires que de noyaux pour lesquels ils ont étés compilés. Idem pour *tex dont il est possible de joindre une vue du rendu.<br />
 			Pour les langage webs tel que HTML, il est possible de choisir, si par défaut doit être affiché le code où le rendu intérprété par un moteur de rendu. Le choix est pertinent car un lecteur de PAP peut proposer au lecteur de montrer le rendu d’un passage de code HTML.<br /> <!-- C'est un peu bancal, c'est le rôle du reader de choisir quoi afficher non ? Logiquement, PAP doit s'occuper uniquement du fond
 			— Non, en fait ce sont deux fonctionnalités qui doivent êtres distinctes. L’une doit afficher un code source destiné à être lu ; l’autre la sortie d’une execution.
@@ -828,22 +828,24 @@ gentop('Cahier des charges de Papyrus','container');
 	Reprendre les marqueurs de Wikipédia sur les <a href="https://fr.wikipedia.org/wiki/Wikipédia:Contenu_évasif">passages évasifs</a> et <q><a href="https://fr.wikipedia.org/wiki/Wikipédia:Citez_vos_sources">Citez vos sources</a></q>.
 	</p>
 	
-	<h1>Les différentes versions</h1>
+<dl>
+	<dt>Les différentes versions</dt>
 	
 	
 	
 	
-	<h1>Passages spéciaux</h1>
+	<dt>Passages spéciaux</dt>
 	
-	<p>
+	<dd>
 	Dans le corps de texte, certains passages réclament une identification spéciale, ces identifications sont regroupées dans ce chapitre. La différence d’avec les options de corps de texte étant que les passages spéciaux peuvent regrouper plusieurs ligne tandis qu’une option de corps est souvent un formatage spécial contenu dans une phrase normale. Dans les supports intéractifs on préférera à l’affichage "à la suite" du texte, un affichage "isolé", une partition, un code source où une équation par exemple seront affiché dans une partie de l’écran différente pour que le lecteur puisse continuer à lire le doccument tout en ayant le passage spécial sous les yeux, car souvent la suite du texte traite de ce passage. C’est encore plus vrai pour le visionnage d’un vidéograme ou pour l’écoute d’un audiograme. <!-- C'est pas le rôle du reader ça aussi ? -->
-	</p>
+	</dd>
 	
-	<h2>Les listes</h2>
-	<p>
+	<dt>Les listes</dt>
+	<dd>
 	Indépendemment du chapitrage principal peuvent apparaître dans le corps de texte certaines listes, parfois numérotées. Il peuvent paraître redondant mais assez souvent leur utilisation est indépandante de la hiérarchie de chapitrage, cela peut être une liste de tâches par exemple, le PAP prévois deux type de listes :
 	
-	</p>
+	</dd>
+</dl>
 	<dl>
 		<dt>Liste numérotées</dt>
 		<dd>
@@ -856,14 +858,14 @@ gentop('Cahier des charges de Papyrus','container');
 		</dd>
 	</dl>
 	
-	<h2>Les insertions d’objet</h2>
-	<p>	
+<dl>
+	<dt>Les insertions d’objet</dt>
+	<dd>	
 Est reconnu par "objet" toute ressource pas forcément textuelle pourtant insérée en milieu du corps de texte (typiquement des images, des tableaux, des videos, des sons, ...).
-	</p>
-	<h3>Les images</h3>
-	<p>
+	</dd>
+	<dt>Les images</dt>
+	<dd>
 	L’insertion d’image est riche en paramètres.
-	</p>
 	<ul>
 	<li>L’ancrage précise comment l’image doit être encrée par rapport au texte, trois mode existent : au paragraphe : le texte longe l’image de gauche et de droite ; Comme caractère : L’image est bordée par deux caractères, elle est littéralement traitée comme un caractère donc ; Unique : L’image se retrouve au milieu d’une ligne suivant un mot ; Page/écran total, l’image prends une page entière, cela peut être la N-ième (souvent première) page suivant ou précédant immédiatement un mot.</li>
 	
@@ -871,56 +873,57 @@ Est reconnu par "objet" toute ressource pas forcément textuelle pourtant insér
 	
 	<li>Condition d’apparition, il existe deux manières de placer une image, l’une absolue, l’autre relative. De manière générale, une image peut n’apparaître que X.x vue/page/écran, avant ou aprés l’apparition d’un passage, il s’agit de l’apparition relative. Sinon, lorceuque l’on veut qu’une image apparaisse à un moment fixe, pour l’ancrage au paragraphe, il faudra définir le premier caractère a droite de l’image ; Idem pour l’encrage en caractère ; Pour l’encrage unique il s’agit de définir quel ligne précède l’apparition de l’image.</li>
 	</ul>
+	</dd>
 	
-	<h3>Les tableaux</h3>
-	<p>
+	<dt>Les tableaux</dt>
+	<dd>
 	Ils ont des paramètres similaires à ceux des images.
-	</p>
+	</dd>
 
-	<h3>Les audiogrames et vidéogrammes</h3>
-	<p>
+	<dt>Les audiogrames et vidéogrammes</dt>
+	<dd>
 	Là encore afin d’ajouter un audiograme, il est possible d’ajouter des commandes de préouverture selon l’apparition d’un texte à l’écran.
-	</p>
+	</dd>
+</dl>
 
-	
-	<h1>Les balises textuelles</h1>
-	<p>
+<dl>
+	<dt>Les balises textuelles</dt>
+	<dd>
 	Tout le texte est parsemé de précisions, certaines tenant des modifications apportées au texte au fil de son existence, compte au définitions où à l’explication de certains mots, ou encore compte au notes de traduction, à la collaboration de différents auteurs, ou des notes de bas de pages originelles.
-	</p>
-	<h2>Les balises de correspondance manuscrite</h2>
-	<p>
+	</dd>
+	<dt>Les balises de correspondance manuscrite</dt>
+	<dd>
 Un PAP peut aussi embarquer une numérisation d’un manuscrit, un fac-similé de l’œuvre où un enregistrement phonographique de la lecture de celle-ci, dans ce cas un travail est fait sur la correspondance entre chaque caractère dans le corps de texte du PAP et son équivalent dans l’image de numérisation et/ou dans l’enregistrement phonographique.
-	</p>
-	<h2>Les balises de modification</h2>
-	<p>	
+	</dd>
+	<dt>Les balises de modification</dt>
+	<dd>	
 Les balises autoriales les permettent d’indiquer tout changement apporté au texte au file du temps ainsi que la date et les personnes qui ont apporter ces modifications, la période où ces modifications on étée appliquées, ainsi que les raisons de ses modifications. Cela peut aussi être une traduction.
-	</p>
-<p>
+</br >
 	Typiquement, chaque morceau de texte est rattaché à un auteur (lorsque plusieurs auteurs ont apportés des modifications), une date de rédaction du passage, les raisons de la modification (Censure, meilleure expression, adaptation etc...), De même que les circonstances de la première modification et la forme dont elle a été annoncée (par note de bas de page, par notice etc) et, éventuellement, le texte de justiffication joint par l’auteur. Les balises de modification contiennent donc toutes les versions d’une œuvre.
-</p>
+</dd>
 	
-	<h2>Les balises de traduction</h2>
-<p>	
+	<dt>Les balises de traduction</dt>
+<dd>	
 Les balises de traduction sont de deux types : les balises de correspondance de traduction et les balises de notice. Un PAP étant sensé comporter toutes les versions, même linguistiques d’un ouvrage, il existe donc plusieurs champs, ici les balises de traduction font le lien entre les phrases correspondante dans chaque version linguistique.
-</p>
-<p>
+<br />
 	Les balises de notice, compte à elles, contiennent pour champs, les justification données par le traducteur ainsi qu’un champ spécial pour l’auteur orriginel.
-</p>	
-	<h2>La précision du contexte</h2>
-<p>
+</dd>	
+	<dt>La précision du contexte</dt>
+<dd>
 	Des balises peuvent préciser le contexte concernant un passage.
-</p>
+</dd>
 	
-	<h2>La définition</h2>
-	<p>	
+	<dt>La définition</dt>
+	<dd>	
 Certains mots polysémiques peuvent avoir une signification très particulière dans l’œuvre, dans ce cas, des balises spéciales précisent.
-	</p>
-	
-	<h1>Les variables circonstancielles</h1> 
-	<p>	
+	</dd>
+</dl>
+
+<dl>
+	<dt>Les variables circonstancielles</dt> 
+	<dd>	
 Le PAP fournit aussi un certain nombre de fonctionnalités pouvant s’adapter aux situations spacio-temporelles et même éditorielles. Ainsi, selon qu’une image soit à gauche, en haut en bas ou dans une autre page qu’un revois vers celle-ci (typiquement les "ci-contre", ci-bas) ou que l’auteur veuille faire allusion à la date ou au lieu de lecture des commandes existent à cet effet.
-	</p>
-	<dl>
+	</dd>
 		<dt>date</dt>
 		<dd>
 		Cette commande permet d’insérer la date de lecture lorsequ’il s’agit d’un support intéractif s’il peut la fournir et une suite de mot, (typiquement : "au moment où vous lisez"), choisit par l’auteur pour les supports figés comme une impression sur papier. L’auteur pourra, pour les support intéractifs, choisir la précision de la date (au Nième prét), son formatage et la manière dont apparait la date, si elle doit être cariable en temps réel sous les yeux du lecteur agissant comme une montre, si elle doit être figée à la date à laquelle le lecteur a ouvert le PAP ou si elle doit être figée à la date à laquelle sa mention apparait à l’écran du lecteur.
