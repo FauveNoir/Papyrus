@@ -294,8 +294,8 @@ gentop('Cahier des charges de Papyrus','container');
 	</p>
 	<p>
 		En clair, les différents chapitrages sont complètement indépendants les uns des autres, et tous supportent les mêmes fonctionnalités de chapitrage.<br />
-		En revanche, il existe une unité atomique qui ne peut être divisée, dans aucun plan : le "verset", l’auteur, si besoin peut définir chaque verset ainsi que les nomer et les pseudo-numérotés. <!-- What ? « les només »
-		— « Les nomER » oui, les versets peuvent être només.
+		En revanche, il existe une unité atomique qui ne peut être divisée, dans aucun plan : le "verset", l’auteur, si besoin peut définir chaque verset, le nommer et le pseudo-numéroter. <!-- What ? « les només »
+		— « Les nommER » oui, les versets peuvent être nommés.
 		-->
 	</p>
 	<p>
