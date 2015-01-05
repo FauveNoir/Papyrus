@@ -34,8 +34,8 @@ Cet ellement n’accepte qu’un seul attribut.
 
 <h2>Exemple</h2>
 <code>
-<papyrus>
-	<head>...</head>
-	<body>...</body>
-</papyrus>
+&lt;papyrus&gt;
+	&lt;head&gt;...&lt;/head&gt;
+	&lt;body&gt;...&lt;/body&gt;
+&lt;/papyrus&gt;
 </code>
