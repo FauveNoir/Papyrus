@@ -28,7 +28,7 @@
 <!-- Facultatif. S’il n’y a acun paragraphe introductif, alors supprimez les balises. -->
 </p>
 <dl>
-	<dt>&lt;{attribut}&gt;</dt>
+	<dt>&lt;attribut&gt;</dt>
 	<dd>
 	
 	</dd>
@@ -40,12 +40,12 @@
 </code>
 
 
-<h3>Affichage</h3>
-<samp>
+<h2>Affichage</h2>
+<p>
 ...
-</samp>
+</p>
 
-<h2>Notes</h3>
+<h2>Notes</h2>
 <p>
 
 </p>

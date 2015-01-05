@@ -1,0 +1,50 @@
+<!-- vim: syntax=html --!>
+<samp>&lt;classification&gt;</samp>
+
+<h2>Général</h2>
+La balise Papyrus <samp>&lt;classification&gt;</samp> permet de situer le document papyrus au sein d’une classification parmis celles supportées.
+<p>
+
+</p>
+<article class="alert alert-info details">
+<!-- Ici sont détaillées les balises en lien avec celle traitée. Si une des deux section n’est pas sensée contenir de balise alors ne la supprimez pas mais placez simplement la mention « Aucun » suivie, si possible, d’une description des raisons. --!>
+	<dl>
+		<dt>Élements contenus autorisés</dt>
+		<dd>
+		La balise <samp>&lt;classification&gt;</samp> autorise toutes les balises propres à des classifications comme <samp>&lt;kpc&gt;</samp> <strong>qui est la classification native de Papyrus</strong> mais aussi <samp>&lt;udc&gt;</samp> pour la <a href="https://fr.wikipedia.org/wiki/Classification_décimale_universelle">Classification décimale universelle</a>, <samp>&lt;bbk&gt;</samp> pour la <a href="https://fr.wikipedia.org/wiki/BBK_(classification)"><i lang="ru">Bibliotečno-Bibliografičeskaja Klassifikacija</i></a>, <samp>&lt;ddc&gt;</samp> pour la <a href="https://fr.wikipedia.org/wiki/Classification_décimale_de_Dewey">Classification décimale de Dewey</a>, <samp>&lt;llc&gt;</samp> pour la <a href="https://fr.wikipedia.org/wiki/Classification_de_la_Bibliothèque_du_Congrès"><i lang="en">Library of Congress Classification</i></a>, et <samp>&lt;pcdm&gt;</samp> pour les <a href="https://fr.wikipedia.org/wiki/Principes_de_classement_des_documents_musicaux">Principes de classement des documents musicaux</a>.
+		<dd>
+
+		<dt>Élements parents autorisés</dt>
+		<dd>
+		La balise <samp>&lt;classification&gt;</samp> est déstinée à classer le document papyrus. Elle n’est donc autorisée que dans la balise <samp>&lt;head&gt;</samp> dédiée aux méta-information sur le document.
+		<dd>
+	</dl>
+</article>
+
+
+<h2>Attributs</h3>
+<p>
+<!-- Facultatif. S’il n’y a acun paragraphe introductif, alors supprimez les balises. --!>
+</p>
+<dl>
+	<dt>&lt;{attribut}&gt;</dt>
+	<dd>
+	
+	</dd>
+</dl>
+
+<h2>Exemple</h2>
+<code>
+&lt;head&gt;
+	&lt;classification&gt;
+	&lt;kpc&gt;...&lt;/kpc&gt;
+	&lt;udc&gt;...&lt;/udc&gt;
+	&lt;/classification&gt;
+&lt;/head&gt;
+</code>
+
+
+<h2>Notes</h2>
+<p>
+Il est bien important de noter que le système natif de Papyrus est la <cite>Classification positive du savoir et des connaissances</cite>. Les autres sont disponibles pour des raisons de compatibilité ascendante.
+</p>

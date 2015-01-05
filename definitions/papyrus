@@ -34,8 +34,8 @@ Cet élément n’accepte qu’un seul attribut.
 
 <h2>Exemple</h2>
 <code>
-<papyrus version=1.0>
-	<head>...</head>
-	<body>...</body>
-</papyrus>
+&lt;papyrus version="1.0"&gt;
+	&lt;head&gt;...&lt;/head&gt;
+	&lt;body&gt;...&lt;/body&gt;
+&lt;/papyrus&gt;
 </code>
