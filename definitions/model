@@ -1,14 +1,14 @@
-<!-- vim: syntax=html --!>
-<samp>&lt;{balise}&gt;</samp>
-<!--Remplacez "{balasie}" par le nom de la balise traitée !-->
+<!-- vim: syntax=html -->
+<h1><samp>&lt;{balise}&gt;</samp></h1>
+<!--Remplacez "{balise}" par le nom de la balise traitée !-->
 
 <h2>Général</h2>
-<!-- Description générale *Et précise* de la balise traitée. N’hésitez pas à faire une déscription même longue--!>
+<!-- Description générale *Et précise* de la balise traitée. N’hésitez pas à faire une description même longue-->
 <p>
 
 </p>
 <article class="alert alert-info details">
-<!-- Ici sont détaillées les balises en lien avec celle traitée. Si une des deux section n’est pas sensée contenir de balise alors ne la supprimez pas mais placez simplement la mention « Aucun » suivie, si possible, d’une description des raisons. --!>
+<!-- Ici sont détaillées les balises en lien avec celle traitée. Si une des deux section n’est pas sensée contenir de balise alors ne la supprimez pas mais placez simplement la mention « Aucun » suivie, si possible, d’une description des raisons. -->
 	<dl>
 		<dt>Élements contenus autorisés</dt>
 		<dd>
@@ -23,12 +23,12 @@
 </article>
 
 
-<h2>Attributs</h3>
+<h2>Attributs</h2>
 <p>
-<!-- Facultatif. S’il n’y a acun paragraphe introductif, alors supprimez les balises. --!>
+<!-- Facultatif. S’il n’y a acun paragraphe introductif, alors supprimez les balises. -->
 </p>
 <dl>
-	<dt>&lt;{attribut}&gt;</dt>
+	<dt>&lt;attribut&gt;</dt>
 	<dd>
 	
 	</dd>
