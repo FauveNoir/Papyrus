@@ -1,6 +1,6 @@
 <!-- vim: syntax=html -->
-<samp>&lt;{balise}&gt;</samp>
-<!--Remplacez "{balasie}" par le nom de la balise traitée !-->
+<h1><samp>&lt;{balise}&gt;</samp></h1>
+<!--Remplacez "{balise}" par le nom de la balise traitée !-->
 
 <h2>Général</h2>
 <!-- Description générale *Et précise* de la balise traitée. N’hésitez pas à faire une description même longue-->
