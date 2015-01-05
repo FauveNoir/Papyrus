@@ -671,10 +671,11 @@ gentop('Cahier des charges de Papyrus','container');
 
 	<h3>Pagination</h3>
 	<p>
-	Chaque version peut être accompagnée de ses propres balises de pagination. Celà est particulièrement utile lorsque, pour un ouvrage donnée, une édition fut tellement importante qu’elle devint une référence. L’exemple typique est celui de la <a href="https://fr.wikipedia.org/wiki/Pagination_de_Stephanus">Pagination de Stephanus</a>.<br />
+	Chaque version peut être accompagnée de ses propres balises de pagination. Cela est particulièrement utile lorsque, pour un 
+ouvrage donné, une édition fût tellement importante qu’elle devient une référence. L’exemple typique est celui de la <a 
+href="https://fr.wikipedia.org/wiki/Pagination_de_Stephanus">Pagination de Stephanus</a>.<br />
 	Ainsi, plusieurs paginations peuvent cohabiter dans un même papyrus.
 	</p>
-
 	
 	<h2>Les précisions de type paléographique</h2>
 	Ces précisions cherchent à montrer un changement entre une ancienne graphie d’un mot utilisé.
