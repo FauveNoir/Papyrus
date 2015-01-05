@@ -1,40 +1,40 @@
-<!-- vim: syntax=html --!>
+<!-- vim: syntax=html -->
 <h1>&lt;papyrus&gt;</h1>
 
 <h2>Général</h2>
 <p>
-L’éllément de racine Papyrus (<samp>&lg;papyrus&gl;</samp>) est la racine de tout document papyrus. Tout autre élement doit être sous-jascent à celui-ci.
+L’élément de racine Papyrus (<samp>&lg;papyrus&gl;</samp>) est la racine de tout document papyrus. Tout autre élement doit être sous-jascent à celui-ci.
 </p>
 
 <article class="alert alert-info details">
 	<dl>
-		<dt>Élements contenus autorisés</dt>
+		<dt>Éléments contenus autorisés</dt>
 		<dd>
-		Un seul élement <samp>&lt;head&gt;</samp> et un seul élement <samp>&lt;body&lt;</samp>.
+		Un seul élément <samp>&lt;head&gt;</samp> et un seul élément <samp>&lt;body&lt;</samp>.
 		<dd>
 
-		<dt>Élements parents autorisés</dt>
+		<dt>Éléments parents autorisés</dt>
 		<dd>
-		Aucun. <samp>&lt;papyrus&gt;</samp> est l’éllement racine.
+		Aucun. <samp>&lt;papyrus&gt;</samp> est l’élément racine.
 		<dd>
 	</dl>
 </article>
 
 <h2>Attributs</h2>
 <p>
-Cet ellement n’accepte qu’un seul attribut.
+Cet élément n’accepte qu’un seul attribut.
 </p>
 
 <dl>
 	<dt><samp>version</samp></dt>
 	<dd>
-	Spécfie la version du format Papyrus de laquelle relève le document. Cet attribut est facultatif.
+	Spécifie la version du format Papyrus de laquelle relève le document. Cet attribut est facultatif.
 	</dd>
 </dl>
 
 <h2>Exemple</h2>
 <code>
-<papyrus>
+<papyrus version=1.0>
 	<head>...</head>
 	<body>...</body>
 </papyrus>
