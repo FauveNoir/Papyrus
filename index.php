@@ -726,7 +726,7 @@ href="https://fr.wikipedia.org/wiki/Pagination_de_Stephanus">Pagination de Steph
 	Outre le texte même, est souvent joint à un ouvrage différents textes ou éléments périfériques.
 	</p>
 	<p>
-	Que se soit un préambule, un avant-propos, une notice, un avis au lecteur, une préface, une postface, une avertissement, une introduction, des discours préliminaires, un épilogue, une/des lettre(s) ouverte(s), et autre éléments préambulatoire de l’auteur/traducteur/éditeur et texte de tête des différents éditeurs/auteurs/traducteurs, post-scriptum. Mais aussi des informations compte à la propriété intellectuelle, le nom, la description de la licence, le nom de ou des auteurs/éditeurs/traducteurs, la date de parution, le destinataire du document, les différentes éditions/représentations, ainsi que les crédits et le résumé des crédits, mes aussi les annexes, les appendices, les dossiers joints, l’ISBN/ISSN, la discipline/domaine/mouvement auxquels appartient l’ouvrage, le genre, la <a href="https://fr.wikipedia.org/wiki/Classification_décimale_de_Dewey">classification</a> selon deway <!--deleway ? — Deway plutôt-->, selon le système décimal et/ou selon un autre système dont le nom sera précisé, une citation préambulatoire, le dépot légal, l’édition, la date d’édition, information sur l’édition, ainsi que la manière dont à été édité l’ouvrage, la bibliothèque distribuant l’ouvrage, des information sur l’édition en PAP, le frontispice, les dédicaces, le résumé de l’œuvre, le résumé de quatrième de couverture etc.</p>
+	Que se soit un préambule, un avant-propos, une notice, un avis au lecteur, une préface, une postface, une avertissement, une introduction, des discours préliminaires, un épilogue, une/des lettre(s) ouverte(s), et autre éléments préambulatoire de l’auteur/traducteur/éditeur et texte de tête des différents éditeurs/auteurs/traducteurs, post-scriptum. Mais aussi des informations compte à la propriété intellectuelle, le nom, la description de la licence, le nom de ou des auteurs/éditeurs/traducteurs, la date de parution, le destinataire du document, les différentes éditions/représentations, ainsi que les crédits et le résumé des crédits, mes aussi les annexes, les appendices, les dossiers joints, l’ISBN/ISSN, la discipline/domaine/mouvement auxquels appartient l’ouvrage, le genre, la <a href="https://fr.wikipedia.org/wiki/Classification_décimale_de_Dewey">classification</a> selon Dewey <!--deleway ? — Deway plutôt-->, selon le système décimal et/ou selon un autre système dont le nom sera précisé, une citation préambulatoire, le dépot légal, l’édition, la date d’édition, information sur l’édition, ainsi que la manière dont à été édité l’ouvrage, la bibliothèque distribuant l’ouvrage, des information sur l’édition en PAP, le frontispice, les dédicaces, le résumé de l’œuvre, le résumé de quatrième de couverture etc.</p>
 	Ces éléments sont extérieurs au texte même, ils le présentent, le précisent. Un champ est prévu pour chaque élément péri-textuel. Tous ces éléments ne sont pas toujours utilisés en même temps par un ouvrage donné dans ce cas là.
 	</p>
 	
@@ -848,14 +848,14 @@ href="https://fr.wikipedia.org/wiki/Pagination_de_Stephanus">Pagination de Steph
 	</dd>
 </dl>
 	<dl>
-		<dt>Liste numérotées</dt>
+		<dt>Listes numérotées</dt>
 		<dd>
-		Il s’agit de listes toutes simples, avec une infinité de sous parties que nécessaire. Chaque partie pouvant contenir plusieurs "paragraphe" dans le "corps de texte".
+		Il s’agit de listes toutes simples, avec une infinité de sous parties que nécessaire. Chaque partie pouvant contenir plusieurs "paragraphes" dans le "corps de texte".
 		</dd>
 		
-		<dt>Les listes à puces</dt>
+		<dt>Listes à puces</dt>
 		<dd>	
-		Il s’agit de listes très simples ne disposant d’aucune forme de numérotation ni de hierarchie.
+		Il s’agit de listes très simples ne disposant d’aucune forme de numérotation ni de hiérarchie.
 		</dd>
 	</dl>
 	
