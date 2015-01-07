@@ -65,7 +65,7 @@ gentop('Cahier des charges de Papyrus','container');
 	<h2>Les niveaux</h2>
 	<p>
 	Le PAP gère un plan d’une infinité théorique de niveaux de chapitrages, afin de répondre aux besoins de tous les ouvrages.<br />
-	Chaque niveau est identifié par un numérateur, allant de 1 pour le niveau le plus élevé, à l’infini pour les niveaux les plus intrusifs même si dans la patique, très rares sont les ouvrages qui nécessiteront un chapitrage allant au-delà du 7<sup>ème</sup> niveau. À ce titre, le niveau initial est le nulième.
+	Chaque niveau est identifié par un numérateur, allant de 1 pour le niveau le plus élevé, à l’infini pour les niveaux les plus intrusifs même si dans la pratique, très rares sont les ouvrages qui nécessiteront un chapitrage allant au-delà du 7<sup>ème</sup> niveau. À ce titre, le niveau initial est le nulième.
 	</p>
 	
 	<p>
