@@ -1,0 +1,63 @@
+<!-- vim: syntax=html -->
+<h1><samp>&lt;chap&gt;</samp></h1>
+<!--Remplacez "{balasie}" par le nom de la balise traitée !-->
+
+<h2>Général</h2>
+<!-- Description générale *Et précise* de la balise traitée. N’hésitez pas à faire une description même longue-->
+<p>
+	L'élément <samp>&lt;chap&gt;</samp> contient tous les autres éléments essentiels au chapitrage. Plusieurs éléments <samp>&lt;chap&gt;</samp> peuvent apparaître dans un papyrus.
+</p>
+<article class="alert alert-info details">
+<!-- Ici sont détaillées les balises en lien avec celle traitée. Si une des deux section n’est pas sensée contenir de balise alors ne la supprimez pas mais placez simplement la mention « Aucun » suivie, si possible, d’une description des raisons. -->
+	<dl>
+		<dt>Élements contenus autorisés</dt>
+		<dd>
+		À l'intérieur d'un élément <samp>&lt;chap&gt;</samp>, on trouve un élément <samp>&lt;meta&gt;</samp>
+		<dd>
+
+		<dt>Élements parents autorisés</dt>
+		<dd>
+		Le seul élément parent autorisé est <samp>&lt;body&gt;</samp>.
+		<dd>
+	</dl>
+</article>
+
+
+<h2>Attributs</h2>
+<p>
+Aucun.
+<!-- Facultatif. S’il n’y a acun paragraphe introductif, alors supprimez les balises. -->
+</p>
+
+
+<h2>Exemple</h2>
+
+<code>
+&lt;papyrus version="1.0"&gt;
+	&lt;head&gt;...&lt;/head&gt;
+	&lt;body&gt;...&lt;/body&gt;
+		&lt;chap&gt;
+			&lt;label&gt;
+
+			&lt;/label&gt;
+		&lt;/chap&gt;
+&lt;/papyrus&gt;
+</code>
+
+
+<h3>Affichage</h3>
+<samp>
+Première Partie
+</samp>
+<samp>
+Premier Chapitre
+</samp>
+
+<h2>Notes</h2>
+<p>
+Tout élément textuel peut faire l'objet d'un chapitrage.
+</p>
+
+
+
+
