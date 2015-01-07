@@ -1,23 +1,20 @@
 <!-- vim: syntax=html -->
 <h1><samp>&lt;chap&gt;</samp></h1>
-<!--Remplacez "{balasie}" par le nom de la balise traitée !-->
 
 <h2>Général</h2>
-<!-- Description générale *Et précise* de la balise traitée. N’hésitez pas à faire une description même longue-->
 <p>
 	L'élément <samp>&lt;chap&gt;</samp> contient tous les autres éléments essentiels au chapitrage. Plusieurs éléments <samp>&lt;chap&gt;</samp> peuvent apparaître dans un papyrus.
 </p>
 <article class="alert alert-info details">
-<!-- Ici sont détaillées les balises en lien avec celle traitée. Si une des deux section n’est pas sensée contenir de balise alors ne la supprimez pas mais placez simplement la mention « Aucun » suivie, si possible, d’une description des raisons. -->
 	<dl>
 		<dt>Élements contenus autorisés</dt>
 		<dd>
-		À l'intérieur d'un élément <samp>&lt;chap&gt;</samp>, on trouve un élément <samp>&lt;meta&gt;</samp>
+		À l'intérieur d'un élément <samp>&lt;chap&gt;</samp>, on trouve un élément faculatitf <samp>&lt;meta&gt;</samp>, suivi d'un élément obligatoire <samp>&lt;main&gt;</samp> contenant le corps du chapitrage.
 		<dd>
 
 		<dt>Élements parents autorisés</dt>
 		<dd>
-		Le seul élément parent autorisé est <samp>&lt;body&gt;</samp>.
+		<!-- À compléter -->
 		<dd>
 	</dl>
 </article>
@@ -26,7 +23,6 @@
 <h2>Attributs</h2>
 <p>
 Aucun.
-<!-- Facultatif. S’il n’y a acun paragraphe introductif, alors supprimez les balises. -->
 </p>
 
 
@@ -37,21 +33,21 @@ Aucun.
 	&lt;head&gt;...&lt;/head&gt;
 	&lt;body&gt;...&lt;/body&gt;
 		&lt;chap&gt;
-			&lt;label&gt;
+			&lt;meta&gt;
 
-			&lt;/label&gt;
+			&lt;/meta&gt;
+			&lt;main&gt;
+
+			&lt;/main&gt;
 		&lt;/chap&gt;
 &lt;/papyrus&gt;
 </code>
 
 
 <h3>Affichage</h3>
-<samp>
-Première Partie
-</samp>
-<samp>
-Premier Chapitre
-</samp>
+<p>
+Aucun aperçu disponible.
+</p>
 
 <h2>Notes</h2>
 <p>
