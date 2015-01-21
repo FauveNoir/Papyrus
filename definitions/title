@@ -1,0 +1,64 @@
+<!-- vim: syntax=html -->
+<h1><samp>&lt;title&gt;</samp></h1>
+
+<samp>&lt;title&gt;</samp>
+<h2>Général</h2>
+Un titre peut être appliqué à chacun des niveaux par l'intermédiaire de la balise <samp>&lt;title&gt;</samp>. <samp>&lt;title&gt;</samp> est un élément textuel.
+<p>
+
+</p>
+<article class="alert alert-info details">
+	<dl>
+		<dt>Élements contenus autorisés</dt>
+		<dd>
+		Tout élément textuel peut être un élément enfant de <samp>&lt;title&gt;</samp>.
+		</dd>
+
+		<dt>Élements parents autorisés</dt>
+		<dd>
+		Le seul élément parent autorisé est le <samp>&lt;meta&gt;</samp> du <samp>&lt;lvl&gt;</samp>.
+		</dd>
+	</dl>
+</article>
+
+
+<h2>Exemple</h2>
+<code>
+&lt;main&gt;
+	&lt;lvl&gt;
+		&lt;meta&gt;
+			&lt;title&gt;Création d'Arpanet&lt;/title&gt;
+		...
+		&lt;/meta&gt;
+		&lt;main&gt;
+		...
+		&lt;/main&gt;
+	&lt;/lvl&gt;
+
+	&lt;lvl&gt;
+		&lt;meta&gt;
+		&lt;title&gt;Démocratisation de la Toile&lt;/title&gt;
+		...
+		&lt;/meta&gt;
+		&lt;main&gt;
+		...
+		&lt;/main&gt;
+	&lt;/lvl&gt;		
+&lt;/main&gt;
+</code>
+
+
+<h2>Affichage</h2>
+<p>
+Création d'Arpanet
+....
+Démocratisation de la Toile
+...
+</p>
+
+<h2>Notes</h2>
+<p>
+Le titre est optionnel pour tout type de branche sauf pour le "tronc". <!-- Faudra préciser qu'est ce que le tronc -->
+</p>
+
+
