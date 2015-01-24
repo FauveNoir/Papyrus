@@ -3,34 +3,23 @@
 
 <h2>Général</h2>
 <p>
-Le niveau <samp>&lt;lvl&gt;</samp> permet de définir une numérotation 
+Le niveau <samp>&lt;lvl&gt;</samp> est identifié par un numérateur, allant de 1 pour le niveau le plus élevé, à l’infini pour les niveaux les plus intrusifs.
 </p>
 <article class="alert alert-info details">
 <!-- Ici sont détaillées les balises en lien avec celle traitée. Si une des deux section n’est pas sensée contenir de balise alors ne la supprimez pas mais placez simplement la mention « Aucun » suivie, si possible, d’une description des raisons. -->
 	<dl>
 		<dt>Élements contenus autorisés</dt>
 		<dd>
-		
+		À l'intérieur d'un <samp>&lt;lvl&gt;</samp>, on peut trouver un <samp>&lt;label&gt;</samp>, donnant un label au niveau, ainsi que des éléments textuels.
 		<dd>
 
 		<dt>Élements parents autorisés</dt>
-		<dd>
-		
+		<dd>		
+		Le seul élément parent autorisé est le <samp>&lt;main&gt;</samp> du <samp>&lt;chap&gt;</samp>.
 		<dd>
 	</dl>
 </article>
-
-
-<h2>Attributs</h2>
-<p>
-<!-- Facultatif. S’il n’y a acun paragraphe introductif, alors supprimez les balises. -->
-</p>
-<dl>
-	<dt>&lt;attribut&gt;</dt>
-	<dd>
-	
-	</dd>
-</dl>
+o
 
 <h2>Exemple</h2>
 <code>
@@ -45,7 +34,7 @@ Le niveau <samp>&lt;lvl&gt;</samp> permet de définir une numérotation
 
 <h2>Notes</h2>
 <p>
-
+On peut théoriquement définir une infinité de niveaux de chapitrage.
 </p>
 
 

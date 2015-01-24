@@ -3,7 +3,7 @@
 
 <h2>Général</h2>
 <p>
-Le label permet de donner un nom précis à des niveaux correspondant à un même chapitrage.
+Le label permet de donner un nom précis à des niveaux correspondant à un même chapitrage. <samp>&lt;label&gt;</samp> est un élément textuel.
 </p>
 
 <article class="alert alert-info details">
@@ -11,7 +11,7 @@ Le label permet de donner un nom précis à des niveaux correspondant à un mêm
 	<dl>
 		<dt>Élements contenus autorisés</dt>
 		<dd>
-		Aucun.
+		Tout élément textuel est autorisé.
 		<dd>
 
 		<dt>Élements parents autorisés</dt>
@@ -42,14 +42,24 @@ Un seul et unique attribut facultatif est autorisé.
 
 	&lt;main&gt;
 		&lt;lvl&gt;
-			&lt;title&gt;Création d'Arpanet&lt;/title&gt;
+			&lt;meta&gt;
+				&lt;title&gt;Création d'Arpanet&lt;/title&gt;
 			...
+			&lt;/meta&gt;
+			&lt;main&gt;
+			...
+			&lt;/main&gt;
 		&lt;/lvl&gt;
+	
 		&lt;lvl&gt;
+			&lt;meta&gt;
 			&lt;title&gt;Démocratisation de la Toile&lt;/title&gt;
 			...
-		&lt;/lvl&gt;
-		
+			&lt;/meta&gt;
+			&lt;main&gt;
+			...
+			&lt;/main&gt;
+		&lt;/lvl&gt;		
 	&lt;/main&gt;
 &lt;/chap&gt;
 </code>
@@ -62,14 +72,24 @@ Un seul et unique attribut facultatif est autorisé.
 
 	&lt;main&gt;
 		&lt;lvl&gt;
-			&lt;title&gt;Création d'Arpanet&lt;/title&gt;
+			&lt;meta&gt;
+				&lt;title&gt;Création d'Arpanet&lt;/title&gt;
 			...
+			&lt;/meta&gt;
+			&lt;main&gt;
+			...
+			&lt;/main&gt;
 		&lt;/lvl&gt;
+	
 		&lt;lvl&gt;
+			&lt;meta&gt;
 			&lt;title&gt;Démocratisation de la Toile&lt;/title&gt;
 			...
-		&lt;/lvl&gt;
-		
+			&lt;/meta&gt;
+			&lt;main&gt;
+			...
+			&lt;/main&gt;
+		&lt;/lvl&gt;		
 	&lt;/main&gt;
 &lt;/chap&gt;
 </code>
