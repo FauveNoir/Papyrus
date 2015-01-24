@@ -1,0 +1,56 @@
+<!-- vim: syntax=html -->
+<h1><samp>&lt;num&gt;</samp></h1>
+
+<h2>Général</h2>
+Cet élément décrit le mode de numération d'un <samp>&lt;lvl&gt;</samp> précis ou alors des plusieurs niveaux d'un <samp>&lt;chap&gt;</samp> entier, en fonction de sa place dans le branchage.
+<p>
+
+</p>
+<article class="alert alert-info details">
+	<dl>
+		<dt>Élements contenus autorisés</dt>
+		<dd>
+		Si <samp>&lt;num&gt;</samp> décrit la numérotation d'un niveau précis, alors tout élément textuel est autorisé. Sinon, Aucun 
+		</dd>
+
+		<dt>Élements parents autorisés</dt>
+		<dd>
+		
+		</dd>
+	</dl>
+</article>
+
+
+<h2>Attributs</h2>
+<p>
+<!-- Facultatif. S’il n’y a acun paragraphe introductif, alors supprimez les balises. -->
+</p>
+<dl>
+	<dt>&lt;attribut&gt;</dt>
+	<dd>
+	
+	</dd>
+</dl>
+
+<h2>Exemple</h2>
+<code>
+...
+</code>
+
+
+<h2>Affichage</h2>
+<p>
+...
+</p>
+
+<h2>Notes</h2>
+<p>
+
+</p>
+
+
+<h2>Voir aussi</h2>
+<p>
+
+</p>
+
