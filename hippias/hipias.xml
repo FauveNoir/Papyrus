@@ -1,16 +1,71 @@
 <papyrus>
 	<head>
+		<original>
+			<author><author:Platon /></author>
+			<title>Ἱππίας Ἐλάττων</title>
+			<lang>grc</lang>
+		</original>
+
+		<subject>
+		</subject>
+
+		<classification>
+			<cpsc></cpsc>
+			<isbn></isbn>
+			<issn></issn>
+			<udc></udc>
+			<bbk></bbk>
+			<cdd></cdd>
+			<llc></llc>
+		</classification>
+
+		<genre>
+		</genre>
+
 		<editionsDef>
-			<entry>
+			<entry type="orignal">
 				<code>OUPBurnet</code>
-				<author>
-					<firstname>John</firstname>
-					<lastname>Burnet</lastname>
-				</author>
+				<under><traductor:JohnBurnet /></under>
 				<date>1903</date>
 				<collection>Platonis Opera</collection>
 				<title>Ἱππίας Ἐλάττων</title>
-				<edition>Oxford University Press</edition>
+				<edition><editor:OxfordUniversityPress></edition>
+			</entry>
+			<entry type="orignal">
+				<code>BellesLettresCroiset</code>
+				<under><traductor:MauriceCroiset/></under>
+				<date>1920</date>
+				<collection>Platon - Œuvres complètes</collection>
+				<title>Ἱππίας Ἐλάττων</title>
+				<edition><editor:OxfordUniversityPress></edition>
+			</entry>
+			<entry type="trad">
+				<lang>fr</lang>
+				<code>VictorCousin</code>
+				<under><traductor:VictorCousin/></under>
+				<date><from>1822</from> <to>1840</to></date>
+				<title>Le Second Hippias</title>
+				<takenfrom>
+					<bibl:ŒuvresPlatonCousin, t="4"> <!-- Tome 4 des Œuvres de Platon traduites par Cousin -->
+				</takenfrom>
+			</entry>
+			<entry type="trad">
+				<lang>fr</lang>
+				<code>BellesLettresCroiset</code>
+				<under><traductor:MauriceCroiset/></under>
+				<date>1920</date>
+				<collection>Platon - Œuvres complètes</collection>
+				<title>Hippias mineur</title>
+				<page><from>34</from> <to>72</to></page>
+			</entry>
+			<entry type="trad">
+				<lang>fr</lang>
+				<code>ÉmileChambry</code>
+				<under><traductor:ÉmileChambry/></under>
+				<title>
+					<maintitle>Hippias Mineur</maintitle>
+					<subtitle>(Sur le Mensonge)</subtitle>
+				</title>
 			</entry>
 		</editionsDef>
 	</head>
