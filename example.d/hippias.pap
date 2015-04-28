@@ -1,1 +1,7 @@
-//vim syntax=xml
+// vim: syntax=xml
+<papyrus>
+	<head>
+
+	</head>
+
+</papyrus>
