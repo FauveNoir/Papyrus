@@ -3,21 +3,15 @@
 		<editionsDef>
 			<entry>
 				<code>OUPBurnet</code>
+				<author>
+					<firstname>John</firstname>
+					<lastname>Burnet</lastname>
+					<date>1903</date>
+					<collection>Platonis Opera</collection>
+					<title>Ἱππίας Ἐλάττων</title>
+				</author>
+				<edition>Oxford University Press</edition>
 			</entry>
 		</editionsDef>
-		<title>
-			<edition:OUPBurnet>
-			Ἱππίας Ἐλάττων
-			</edition>
-			<edition:BellesLettresCroiset>
-			Ἱππίας Ἐλάττων
-			</edition>
-			<edition:cousin>
-			Le Second Hippias
-			</edition>
-			<edition:chambry,croiset>
-			Hippias mineur
-			</edition>
-		</title>
 	</head>
 </papyrus>
