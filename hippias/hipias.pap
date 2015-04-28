@@ -1,0 +1,23 @@
+<papyrus>
+	<head>
+		<editionsDef>
+			<entry>
+				<code>OUPBurnet</code>
+			</entry>
+		</editionsDef>
+		<title>
+			<edition:OUPBurnet>
+			Ἱππίας Ἐλάττων
+			</edition>
+			<edition:BellesLettresCroiset>
+			Ἱππίας Ἐλάττων
+			</edition>
+			<edition:cousin>
+			Le Second Hippias
+			</edition>
+			<edition:chambry,croiset>
+			Hippias mineur
+			</edition>
+		</title>
+	</head>
+</papyrus>
