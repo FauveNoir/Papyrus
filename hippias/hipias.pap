@@ -6,10 +6,10 @@
 				<author>
 					<firstname>John</firstname>
 					<lastname>Burnet</lastname>
-					<date>1903</date>
-					<collection>Platonis Opera</collection>
-					<title>Ἱππίας Ἐλάττων</title>
 				</author>
+				<date>1903</date>
+				<collection>Platonis Opera</collection>
+				<title>Ἱππίας Ἐλάττων</title>
 				<edition>Oxford University Press</edition>
 			</entry>
 		</editionsDef>
