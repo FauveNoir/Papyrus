@@ -1,0 +1,60 @@
+<!-- vim: syntax=html -->
+<h1><samp>&lt;chap&gt;</samp></h1>
+
+<h2>Général</h2>
+<p>
+	L'élément <samp>&lt;chap&gt;</samp> contient tous les autres éléments essentiels au chapitrage. Plusieurs éléments <samp>&lt;chap&gt;</samp> peuvent apparaître dans un papyrus.
+</p>
+<article class="alert alert-info details">
+	<dl>
+		<dt>Élements contenus autorisés</dt>
+		<dd>
+		À l'intérieur d'un élément <samp>&lt;chap&gt;</samp>, on trouve un élément faculatitf <samp>&lt;meta&gt;</samp>, suivi d'un élément obligatoire <samp>&lt;main&gt;</samp> contenant le corps du chapitrage.
+		<dd>
+
+		<dt>Élements parents autorisés</dt>
+		<dd>
+		<!-- À compléter -->
+		<dd>
+	</dl>
+</article>
+
+
+<h2>Attributs</h2>
+<p>
+Aucun.
+
+</p>
+
+
+<h2>Exemple</h2>
+
+<code>
+&lt;papyrus version="1.0"&gt;
+	&lt;head&gt;...&lt;/head&gt;
+	&lt;body&gt;...&lt;/body&gt;
+		&lt;chap&gt;
+			&lt;meta&gt;
+
+			&lt;/meta&gt;
+			&lt;main&gt;
+
+			&lt;/main&gt;
+		&lt;/chap&gt;
+&lt;/papyrus&gt;
+</code>
+
+
+<h3>Affichage</h3>
+<p>
+Aucun aperçu disponible.
+</p>
+
+<h2>Notes</h2>
+<p>
+Tout élément textuel peut faire l'objet d'un chapitrage.
+</p>
+
+
+
+

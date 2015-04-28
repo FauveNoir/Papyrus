@@ -1,0 +1,55 @@
+<!-- vim: syntax=html -->
+<h1><samp>&lt;subtitle&gt;</samp></h1>
+
+<h2>Général</h2>
+Il permet d'ajouter un titre secondaire destiné à préciser le sujet traité. <samp>&lt;subtitle&gt;</samp> est un élément textuel, et est obligatoirement précédé d'un élément <samp>&lt;title&gt;</samp>.
+<p>
+
+</p>
+<article class="alert alert-info details">
+	<dl>
+		<dt>Élements contenus autorisés</dt>
+		<dd>
+		<samp>&lt;separate&gt;</samp> ainsi que tout élément textuel est autorisé.
+		</dd>
+
+		<dt>Élements parents autorisés</dt>
+		<dd>
+		L'élément<samp>&lt;meta&gt;</samp> du <samp>&lt;lvl&gt;</samp> est le seul élément parent autorisé.
+		</dd>
+	</dl>
+</article>
+
+
+<h2>Exemple</h2>
+<code>
+&lt;chap&gt;
+	&lt;meta&gt;
+	&lt;/meta&gt;
+
+	&lt;main&gt;
+		&lt;lvl&gt;
+			&lt;meta&gt;
+				&lt;title&gt;Débuter la programmation&lt;/title&gt;
+				&lt;title&gt;Les bases de l'algorithmique&lt;/title&gt;
+			...
+			&lt;/meta&gt;
+			&lt;main&gt;
+			...
+			&lt;/main&gt;
+		&lt;/lvl&gt;
+		
+	&lt;/main&gt;
+&lt;/chap&gt;
+
+</code>
+
+
+<h2>Affichage</h2>
+<p>
+Débuter la programmation : Les bases de l'algorithmique
+...
+</p>
+
+
+

@@ -1,18 +1,16 @@
 <!-- vim: syntax=html -->
-<h1><samp>&lt;{balise}&gt;</samp></h1>
-<!--Remplacez "{balise}" par le nom de la balise traitée !-->
+<h1><samp>&lt;num&gt;</samp></h1>
 
 <h2>Général</h2>
-<!-- Description générale *Et précise* de la balise traitée. N’hésitez pas à faire une description même longue-->
+Cet élément décrit le mode de numération d'un <samp>&lt;lvl&gt;</samp> précis ou alors des plusieurs niveaux d'un <samp>&lt;chap&gt;</samp> entier, en fonction de sa place dans le branchage.
 <p>
 
 </p>
 <article class="alert alert-info details">
-<!-- Ici sont détaillées les balises en lien avec celle traitée. Si une des deux section n’est pas sensée contenir de balise alors ne la supprimez pas mais placez simplement la mention « Aucun » suivie, si possible, d’une description des raisons. -->
 	<dl>
 		<dt>Élements contenus autorisés</dt>
 		<dd>
-		
+		Si <samp>&lt;num&gt;</samp> décrit la numérotation d'un niveau précis, alors tout élément textuel est autorisé. Sinon, Aucun 
 		</dd>
 
 		<dt>Élements parents autorisés</dt>
