@@ -1,15 +1,17 @@
 <?php
 $racine = "/var/www/localhost/tan";
 include("$racine/include/general.php");
-$cssfiles[] = '';
+$cssfiles[] = 'pap-cdc.css';
 gentop('Cahier des charges de Papyrus','container');
 ?>
 <!-- TODO
-Cartes géographiques OSM
-Jeux, échecs, cartes, monopoly, go
-plants d’architécture
+Dessin technique https://fr.wikipedia.org/wiki/Dessin_technique
 renvoit
 lien
+nomenclature selon le point de vue
+fiches de personnages ou autre
+dossier
+création de langue
 -->
 	<section id="title"><h1>Cahier des charges de <strong>Papyrus</strong></h1></section>
 
@@ -434,19 +436,50 @@ function availableType($typeInnitials)
 
 	
 	<dl>
+		<dt>Les nombres <?php availableType("i"); ?></dt>
+		<dd>
+			<p>
+			Les nombres peuvent êtres saisits dans n’importe quel système de numérotation (notation positionnelle, numérotation romaine, babylionnienne), avec n’importe quel système de notation (additive, hybrides) de n’importe quelle base (décimale, binaire, héxadécimale, mais aussi, la base d’or) avec n’importe quels glyphes (bibinaire, chiffres indo-arabe autant dans leur variente orientale qu’occidentale).<br />
+			Simplement, la forme sous laquelle un nombre est saisi dans le papyrus n’influence pas le rendu final de ce nombre qui est dicté par la feuille de style du lecteur final.
+			</p>
+			<p>
+			En revenche, il est des cas où, pour la comparaison par exemple ou pour l’étude des différentes notations existentes, l’auteur ne souhaite pas simplement indiquer un nombre quelconque mais s’interesse avant tout à la notation de ce nombre. Dans ce cas, il est possible d’éxpliciter que la notation fait partie intégrante du sens. Ainsi, est-il possible d’entrer un nombre en décimal avec la graphie européenne des chiffres arabes mais dicter que le rendu soit en base octale et en graphie arabe.
+			</p>
+
+			<p>
+			Enfin, un système permet même de déffinir un nouveau système de numérotation propre au papyrus même.
+			</p>
+		</dd>
+
+		<dt>Les dates et la mesure du temps <?php availableType("i"); ?></dt>
+		<dd>
+			<p>
+			Tout comme les chiffres, les dates, heures et durées sont renseignées selon un système calendaire donné qui n’influencera pas le rendu. Ainsi, une date entrée selon le calendrier grégorien pourra être rendu en hégirien sur le terminal de lecture d’un saoudien ou encore, selon le calendrier révolutionnaire.<br />
+			Là encore, si la forme précise d’une date selon un calendrier donné à pleine valeure sémantique, il est possible de la fixée. Et pareillement pour les heures.
+			</p>
+			<p>
+			De plus, il est possible de créer son propre système calendaire avec autant d’unités temporelles et sous-unités nécessaires, les différentes règles de calcul si ce calendrier n’est pas régulier, d’éventuelles périodes intercalaires et enfin le commencement de ce calendrier. Il est aussi possible de préciser si ce calendrier n’a d’éxistence que dans un univers fictif compléttement disocié de la chronologie réelle (cas du Calendrier de la Terre du Milieu, d’après l’œuvre fictive de  J. R. R. <span class="family-name">Tolkien</span>) ou s’il peut s’y racrocher.
+			</p>
+		</dd>
+
+		<dt>Unités de mesures générales <?php availableType("i"); ?></dt>
+		<dd>
+			De façon générale, toutes les grandeures mesurables peuvent être entrée selon une unité de mesure donnée sans que celà n’influence le rendu de cette mesure. À moins que ne soit éxplicitée la nécéssitée de fixer une notation particulière de cette mesure.
+		</dd>
+
 		<dt>Le dialogue <?php availableType("bs"); ?></dt>
-			<dd>
+		<dd>
 			Un niveau particulier, pour les textes sous forme de dialogue (pièce de theatre, historique de clavardage, correspondance) est envisagé avec la possibilité de préciser la date (avec une précision allant à la milliseconde), dans tous les formats de calendiers connus (Calendrier Julien, Grégorien, Russe, Islamique, Républicain, Maya etc) et même dans un calendrier imaginaire dont les spécificités devront alors être précisées dans un champ dédié et le lieu d’émission, le(s) destinataire(s), la formule de politesse, la formule de fin de chaque répartie dans un sous-champ spécifique, avec trois options dont une et une seule doit être obligatoirement choisie :
 			
 			<ul>
-			<li>Le dialogue instantané avec longues réparties</li>
-			<li>Le dialogue instantané avec courtes réparties</li>
-			<li>Le dialogue différé et épistolaire.</li>
+				<li>Le dialogue instantané avec longues réparties</li>
+				<li>Le dialogue instantané avec courtes réparties</li>
+				<li>Le dialogue différé et épistolaire.</li>
 			</ul>
 			<dl>
-			<dt>Didascalie</dt>
-			<dd>
-			</dd>
+				<dt>Didascalie</dt>
+				<dd>
+				</dd>
 			</dl>
 
 			<dl>
@@ -462,7 +495,8 @@ function availableType($typeInnitials)
 		
 		<dt>Le solfège (musique) <?php availableType("bsia"); ?></dt>
 		<dd>
-			Un mode <q>solfège<q> existe et la partition doit s’écrire dans le code de lylipond. Cependant deux sous mode existe, l’un pour préciser s’il s’agit du solfège européen ou du Jianpu, en vigeur dans le monde chinois.</br>
+			Un mode <q>solfège</q> existe et la partition doit s’écrire dans le code de lylipond. Le système de notation dans lequel sera rendu la portée dépendra des règlages et des préférences du lecteur, le PAP ne faisant que noter l’information abstraite.</br>
+			En revenche, il est possible, pour des raisons d’étude des différents systèmes où d’un système particulier que l’auteur souhaite que le rendu soit précisèment en solfège européen, en jiampu, selon le système de notation musicale de Jean-Jacques <span class="family-name">Rousseau</span>, la notation tibétaine, &cætera. Dans ce cas, il est possible de déffinir explicitement le système dans lequel la partition est exprimée.<br />
 			Le passage marqué comme étant solfégique pourra être joint en sous-champ d’un enregistrement des notes jouées.
 		</dd>
 		
@@ -490,7 +524,8 @@ function availableType($typeInnitials)
 		
 		<dt>Les formules mathématiques et chimiques <?php availableType("bi"); ?></dt>
 		<dd>
-			L’insertion des formules mathématiques et chimiques est possible dans un langage similaire à celui utilisé par Latex. Pour les formules chimiques on pourra préciser le type de représentation choisi.
+			L’insertion des formules mathématiques et chimiques est possible dans un langage similaire à celui utilisé par Latex. Pour les formules chimiques on pourra préciser le type de représentation choisi.<br />
+			Bien entendu, la saisie des formules selon un système de notation (polonaise infixée, affixée, postfixée ou classique) donné n’entraine en rien le rendu selon lequel elles apparraitterons mais il est possible de préciser, dans les cas où c’est nécéssaire, de fixer la notation.
 		</dd>
 		<dd>
 
@@ -734,12 +769,6 @@ function availableType($typeInnitials)
 		Il se peut que, compte tenu des fonctionalités sémantiques formelles présentées par Papyrus, certaines notations d’origine (d’ouvrages apparus avant la mise au point du format Papyrus) deviennent obsolètes car redondantes avec le traitement formel de Papyrus (Par exemple, l’avertissement de contenu qui n’a plus lieux d’être mentionné en toute lettres car traité par la fonctionnalité adequate). Toutes fois, pour préserver une trace du contenu original de l’auteur initial, un champ est prévu.
 		</dd>
 
-		<dt>Exercice (pédagogie) <?php availableType("basi"); ?></dt>
-		<dd>
-		Lorsqu’un ouvrage pédagogique propose au lecteur une évaluation auto-corrective, les réponses sont cachées. Sinon, Elles sont simplement abscentes.<br />
-		Il est aussi possible d’associer un nombre de point à chaque question.
-		</dd>
-
 		<dt>Surprise <?php availableType("basi"); ?></dt>
 		<dd>
 		Il arrive que l’auteur veuille préserver un effet afin qu’il apparaisse subitement au lecteur. Dans le cas d’un livre en papier, celà forcera les feuille de style à placer le passage surprenant en début de page.
@@ -779,22 +808,29 @@ function availableType($typeInnitials)
 
 		<dt>Exercice (pédagogie)</dt>
 		<dd>	
-		Différent type de questionnaires, à choix multiples, sans suggéstion, avec ou sans correction cachée.
+		Différent type de questionnaires, à choix multiples, avec ou sans suggéstion, avec ou sans correction cachée.<br />
+		Il est aussi possible d’associer un nombre de point à chaque question.
 		</dd>
 
-		<dt>Enregistrements binaires et représentation de donnée</dt>
+		<dt>Enregistrements binaires</dt>
 		<dd>
 			<dl>
 				<dt>Les images <?php availableType("bsa"); ?></dt>
 				<dd></dd>
 
-				<dt>Les tableaux <?php availableType("bsa"); ?></dt>
-				<dd></dd>
-
 				<dt>Les audiogrames et vidéogrammes <?php availableType("sa"); ?></dt>
 				<dd></dd>
 
-				<dt>Les cartes <?php availableType("bsa"); ?></dt>
+			<dl>
+		</dd>
+
+		<dt>Représentation de données</dt>
+		<dd>
+			<dl>
+				<dt>Les tableaux <?php availableType("bsa"); ?></dt>
+				<dd></dd>
+
+				<dt>Les cartes géographiques <?php availableType("bsa"); ?></dt>
 				<dd></dd>
 
 				<dt>Les graphiques <?php availableType("bsa"); ?></dt>
@@ -802,8 +838,8 @@ function availableType($typeInnitials)
 
 				<dt>Arbres <?php availableType("bsa"); ?></dt>
 				<dd></dd>
+			</dl>
 
-			<dl>
 		</dd>
 
 		<dt>Jeux</dt>
@@ -818,10 +854,32 @@ function availableType($typeInnitials)
 				<dt>Monopoly</dt>
 				<dd></dd>
 
-				<dt></dt>
+				<dt>Jeux de cartes</dt>
 				<dd></dd>
 
+
+				<dt>Rogues-likes</dt>
+				<dd></dd>
+
+				<dt>Plates-formes</dt>
+				<dd></dd>
+
+				<dt>Puzzle</dt>
+				<dd></dd>
+
+				<dt>Labyrinthes</dt>
+				<dd></dd>
+
+				<dt>Dominos</dt>
+				<dd></dd>
+
+				<dt>Mahjongg</dt>
+				<dd></dd>
 			</dl>
+		</dd>
+
+		<dt>Plan d’architecture</dt>
+		<dd>
 		</dd>
 
 		<dt>Les balises de correspondance manuscrite</dt>
@@ -917,282 +975,55 @@ href="https://fr.wikipedia.org/wiki/Pagination_de_Stephanus">Pagination de Steph
 	Ainsi, plusieurs paginations peuvent cohabiter dans un même papyrus.
 	</p>
 	
-	<h2>Les précisions de type paléographique</h2>
-	Ces précisions cherchent à montrer un changement entre une ancienne graphie d’un mot utilisé.
-	
-	<dl>
-		<dt>Les abréviations médiévales</dt>
-		<dd>
-			Le Moyen-Âge ayant usé d’un florilège d’abréviation, leur pavillonage est rendu possible pour la rétro-compatibilité paléographique. Ansi les abréviations médiévales se déclinent.
-			
-			<dl>
-				<dt>La contraction</dt>
-				<dd>
-					Une ou plusieurs lettres d’un mot sont omises mais la première et la dernière sont conservées.
-				</dd>
-				
-				<dt>La suspension</dt>
-				<dd>
-					La finale (une ou plusieurs lettres) d’un mot (ou d’une syllabe) est omise.
-				</dd>
-				
-				<dt>Les logogrammes et symboles divers</dt>
-				<dd>
-					Des mots ou des syllabes entières peuvent être remplacés par un signe unique, que ce soient des ligatures (cf. esperluette) ou des lettres modifiées (barrées, surmontées de symboles, du titulus et autres signes). Ce symbole devra alors être joint en tant qu’image.
-					Les notes tironiennes, par exemple, ont fourni un grand nombre d’abbréviations de ce type, qui abondent surtout dans les manuscrits de droit . <!-- https://fr.wikipedia.org/wiki/Notes_tironiennes ? -->
-				</dd>
-				
-				<dt>La substitution du <span class="autology">-us</span> (ou autre) par un <span class="autology">-x</span> ou <span class="autology">-<sup>9</sup></span> (ou autre)</dt>
-				<dd>
-					Comme la substitution du -us par le -x ou par un un-9 en exposant était une pratique courante dans de nombreux manuscrits, Le PAP la reprend avec la possibilité de préciser le substitué et le substituant.
-				</dd>
-				
-				<dt>Lettre suscrite</dt>
-				<dd>
-					Le mot est tronqué par contraction (on ne garde que la ou les premières lettres) et la finale (ou les finales) est écrite en hauteur, dans un petit format. <!-- Sensation de déjà vu... dans les abbréviations -->
-				</dd>
-			</dl>
-		</dd>
-	</dl>
-	
-	
-	
 	
 	<h1>Bibliographie</h1>
-	
-	
-	<h1>Paratexte</h1>
-	<p>
-	Outre le texte même, est souvent joint à un ouvrage différents textes ou éléments périfériques.
-	</p>
-	<p>
-	Que se soit un préambule, un avant-propos, une notice, un avis au lecteur, une préface, une postface, une avertissement, une introduction, des discours préliminaires, un épilogue, une/des lettre(s) ouverte(s), et autre éléments préambulatoire de l’auteur/traducteur/éditeur et texte de tête des différents éditeurs/auteurs/traducteurs, post-scriptum. Mais aussi des informations compte à la propriété intellectuelle, le nom, la description de la licence, le nom de ou des auteurs/éditeurs/traducteurs, la date de parution, le destinataire du document, les différentes éditions/représentations, ainsi que les crédits et le résumé des crédits, mes aussi les annexes, les appendices, les dossiers joints, l’ISBN/ISSN, la discipline/domaine/mouvement auxquels appartient l’ouvrage, le genre, la <a href="https://fr.wikipedia.org/wiki/Classification_décimale_de_Dewey">classification</a> selon Dewey <!--deleway ? — Deway plutôt-->, selon le système décimal et/ou selon un autre système dont le nom sera précisé, une citation préambulatoire, le dépot légal, l’édition, la date d’édition, information sur l’édition, ainsi que la manière dont à été édité l’ouvrage, la bibliothèque distribuant l’ouvrage, des information sur l’édition en PAP, le frontispice, les dédicaces, le résumé de l’œuvre, le résumé de quatrième de couverture etc.</p>
-	Ces éléments sont extérieurs au texte même, ils le présentent, le précisent. Un champ est prévu pour chaque élément péri-textuel. Tous ces éléments ne sont pas toujours utilisés en même temps par un ouvrage donné dans ce cas là.
-	</p>
-	
-	<h2>Les informations sur l’auteur</h2>
-	
-	<h3>L’auteur</h3>
-	<p>
-	La raison du PAP est de proposer un fichier unique pour chaque ouvrage, dans ce fichier seront réunis en définitive toutes les versions et toutes les informations connues de l’œuvre. Une biographie de l’auteur par exemple n’a pas sa place dans le PAP car elle peut être variable, de plus elle concerne plus l’auteur que l’œuvre même alors que le fait de connaître le nom de l’auteur suffirait pour pouvoir en retrouver une biographie, idem pour une adresse de jonction de l’auteur, d’autant que cette dernière peut être vraiment très variable au cour du temps, voire inutile après la mort de l’auteur. Néanmoins, pour un minimum d’indépendance, il est tout de même possible d’intégrer certaines de ces informations dans le champ complexe des information variable, le fait de placer ces information dans ce champ informe de leur extrême variabilité et du fait qu’il ne sont donnés qu’à titre indicatif.<br />
-	Comme ces informations varient, leur différentes versions connues à un moment donné, restent enregistrée dans le PAP pour des raisons de philologie, avec en sous-champ la date d’abondon.
-	</p>
-
-	<p>
-	Les informations sur l’auteur seront traitées selon les normes du projet connexe <a href="/ordinator/gprojets/#fCard">fCard</a>.
-	</p>
-	
-	
-	<h2>Multiplicité d’auteurs</h2>
-	<p>
-	Lorsqu’il y a plusieurs personnes à avoir apporter leur travail à l’ouvrage chacune doit être citée avec le droit aux mêmes champs comme cité plus haut.<br />
-	Et comme il est forcément besoin de classer les auteurs il existe des groupes, les auteurs pricipaux, les post-contributeurs, les commentateurs, les correcteurs sémiques, les correcteurs linguistiques, les traducteurs, et puis les éditeurs.
-	</p>
-	
-	<p>
-	Dans chaque groupe seront hiérarchisé les auteurs par importance, d’abord l’ordre chronologique qui fera apparaître en premier, l’initiateur, celui qui a amorcer le projet de l’ouvrage, ou sinon la première personne, dans l’ordre chronologique à avoir collaborée à l’ouvrage en tant que membre d’un groupe.<br />
-	Si des auteurs ont initié en même temps le projet de l’ouvrage alors le classement fera figurer en premier lieu les auteurs qui sont restés le plus longtemps au sein du projet (cas assez rare).<br />
-	En cas d’égalité entre un où plusieurs auteurs, ce sera le point de vue, dans le cas où l’ouvrage soit écrit majoritairement sous le point de vue d’un auteur particulier (cas assez rare).<br />
-	Sinon, ce sera l’ordre d’apparition dans le texte, par exemple, pour un récit épistolaire ce sera l’auteur qui est à l’origine du premier message sauf si le sujet de l’ouvrage porte essentiellement sur un autre auteur.<br />
-	Si malgré tout les auteurs restent à égalité jusque-là, alors la parole sera à l’ordre alphabétique.
-	</p>
-	
-	<p>
-	L’entrée de chaque auteur comportera les champs décrits dans ==Les informations sur l’auteur==.
-	</p>
-	
-	<h2>Péritexte</h2>
-	<p>
-	Il s’agit des éllement para-textuels qui éscortent l’œuvre et en précisent le sens. Tous les péritextes, bien que reconnus en tant que champ particulier (par exemple, en tant que préambule/avant-propos/etc) Peuvent porter un intitulé différent du nom de leur champ (par exemple "Avant-proposs" pour la préface).
-	</p>
-	
-	<p>
-	À tous les péritextes sont joints le nom de l’auteur particulier de ce péritexte, la date de rédaction du péritexte, la langue de publication, l’occasion de la publication, la raison de la rédaction de ce péritexte, le lieux de publication et la date de publication. Avec cela il est en plus possible de faire des nominations selon les mentions cochée par l’auteur/éditeur (par exemple, "préface de l’édition belge en néérlandais de l’année X par Monsieur Y").
-	</p>
-	
-	<h3>Les Péritextes primaires</h3>
-	<p>
-	Sont regroupés sous cette dénomination, l’ensemble des péritexte de qualité érudie, il peut y’en avoir, en sous champ autant que nécessaire et tous supportent toutes les fonctionnalités de chapitrage et de pavillonage et les les précisions de type paléographique.
-	</p>
-	
-	<dd>
-		<dt>La préface</dt>
-		<dd>
-		Une préface un texte d’introduction et de présentation. Placé en tête d’un livre, il en fait connaître les vues, le plan, prévient des objections ou répond à des critiques.<br />
-		Dans la préface l’auteur explique certains choix et se défends de certaines critiques.
-		</dd>
-		
-		<dt>Le préambule</dt>
-		<dd>
-		Le préambule est un éclaircissement préliminaire plus ou moins utile, il donne un avant-goût de l’ouvrage, en marque le caractère et la portée, ou résume les événements accomplis antérieurement au récit.<br />
-		Un préambule fait donc plutôt partie du corps même du corps du texte principal que des élément d’excorte mais il reviendra toutefois à la feuille de style d’en définir la position lors de l’impression.
-		</dd>
-		
-		<dt>La notice</dt>
-		<dd>
-		En réalité, les éléments présent dans la notice jouissent de champs a part entière dans le PAP, La notice ne peut donc que contenir un texte précisant comment trouver le texte dans une bibliothéque
-		</dd>
-		
-		<dt>L’avis au lecteur</dt>
-		<dd>
-		L’avis au lecteur est un élément du paratexte d’un ouvrage placé par l’auteur ou l’éditeur au début de celui-ci afin de fournir au lecteur des informations jugées nécessaires pour la compréhension ou surtout l’acceptation de l’œuvre. Il peut s’agir d’un avertissement concernant le caractère choquant de la suite d’un roman ou encore signalant l’intention de l’écrivain afin qu’elle ne soit pas mal interprétée si elle risque de l’être.
-		</dd>
-		
-		<dt>La postface</dt>
-		<dd>
-		Joue le même rôle que la préface à savoir que c’est un texte d’avertissement ou de commentaire placé à la fin d’un ouvrage, rédigé par l’auteur ou par une autre personne. Évidemment, la position de l’élément relève du formatage mais la préface recèle des informations d’un ordre différent de la préface.
-		</dd>
-		
-		<dt>L’avertissement</dt>
-		<dd>
-		Il s’agit d’un texte préliminaire de l’ouvrage destiné à éclairer le lecteur
-		</dd>
-
-	</dd>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	_____________________________________________________________
-	
-	<h1>Travail collaboratif</h1>
-	<p>
-	Reprendre les marqueurs de Wikipédia sur les <a href="https://fr.wikipedia.org/wiki/Wikipédia:Contenu_évasif">passages évasifs</a> et <q><a href="https://fr.wikipedia.org/wiki/Wikipédia:Citez_vos_sources">Citez vos sources</a></q>.
-	</p>
-	
-<dl>
-	<dt>Les différentes versions</dt>
-	
-	
-	
-	
-	<dt>Passages spéciaux</dt>
-	
-	<dd>
-	Dans le corps de texte, certains passages réclament une identification spéciale, ces identifications sont regroupées dans ce chapitre. La différence d’avec les options de corps de texte étant que les passages spéciaux peuvent regrouper plusieurs ligne tandis qu’une option de corps est souvent un formatage spécial contenu dans une phrase normale. Dans les supports intéractifs on préférera à l’affichage "à la suite" du texte, un affichage "isolé", une partition, un code source où une équation par exemple seront affiché dans une partie de l’écran différente pour que le lecteur puisse continuer à lire le doccument tout en ayant le passage spécial sous les yeux, car souvent la suite du texte traite de ce passage. C’est encore plus vrai pour le visionnage d’un vidéograme ou pour l’écoute d’un audiograme. <!-- C'est pas le rôle du reader ça aussi ? -->
-	</dd>
-	
-	<dt>Les listes</dt>
-	<dd>
-	Indépendemment du chapitrage principal peuvent apparaître dans le corps de texte certaines listes, parfois numérotées. Il peuvent paraître redondant mais assez souvent leur utilisation est indépandante de la hiérarchie de chapitrage, cela peut être une liste de tâches par exemple, le PAP prévois deux type de listes :
-	
-	</dd>
-</dl>
-	<dl>
-		<dt>Listes numérotées</dt>
-		<dd>
-		Il s’agit de listes toutes simples, avec une infinité de sous parties que nécessaire. Chaque partie pouvant contenir plusieurs "paragraphes" dans le "corps de texte".
-		</dd>
-		
-		<dt>Listes à puces</dt>
-		<dd>	
-		Il s’agit de listes très simples ne disposant d’aucune forme de numérotation ni de hiérarchie.
-		</dd>
-	</dl>
-	
-<dl>
-	<dt>Les insertions d’objet</dt>
-	<dd>	
-Est reconnu par "objet" toute ressource pas forcément textuelle pourtant insérée en milieu du corps de texte (typiquement des images, des tableaux, des videos, des sons, ...).
-	</dd>
-	<dt>Les images</dt>
-	<dd>
-	L’insertion d’image est riche en paramètres.
-	<ul>
-	<li>L’ancrage précise comment l’image doit être encrée par rapport au texte, trois mode existent : au paragraphe : le texte longe l’image de gauche et de droite ; Comme caractère : L’image est bordée par deux caractères, elle est littéralement traitée comme un caractère donc ; Unique : L’image se retrouve au milieu d’une ligne suivant un mot ; Page/écran total, l’image prends une page entière, cela peut être la N-ième (souvent première) page suivant ou précédant immédiatement un mot.</li>
-	
-	<li>La position en largeur, est obligatoire sauf quand l’option unique du paramètre d’ancrage est activée. La position en largeur connaît quatres possibilités : "milieu", "gauche", "droite" et "pourcentage" où la position de l’image doit être définie en pourcentage (le plus à gauche est 0% et le plus a droite 100%).</li>
-	
-	<li>Condition d’apparition, il existe deux manières de placer une image, l’une absolue, l’autre relative. De manière générale, une image peut n’apparaître que X.x vue/page/écran, avant ou aprés l’apparition d’un passage, il s’agit de l’apparition relative. Sinon, lorceuque l’on veut qu’une image apparaisse à un moment fixe, pour l’ancrage au paragraphe, il faudra définir le premier caractère a droite de l’image ; Idem pour l’encrage en caractère ; Pour l’encrage unique il s’agit de définir quel ligne précède l’apparition de l’image.</li>
-	</ul>
-	</dd>
-	
-	<dt>Les tableaux</dt>
-	<dd>
-	Ils ont des paramètres similaires à ceux des images.
-	</dd>
-
-	<dt>Les audiogrames et vidéogrammes</dt>
-	<dd>
-	Là encore afin d’ajouter un audiograme, il est possible d’ajouter des commandes de préouverture selon l’apparition d’un texte à l’écran.
-	</dd>
+	⛏
 </dl>
 
-<dl>
-	<dt>Les balises textuelles</dt>
-	<dd>
-	Tout le texte est parsemé de précisions, certaines tenant des modifications apportées au texte au fil de son existence, compte au définitions où à l’explication de certains mots, ou encore compte au notes de traduction, à la collaboration de différents auteurs, ou des notes de bas de pages originelles.
-	</dd>
-	<dt>Les balises de correspondance manuscrite</dt>
-	<dd>
-Un PAP peut aussi embarquer une numérisation d’un manuscrit, un fac-similé de l’œuvre où un enregistrement phonographique de la lecture de celle-ci, dans ce cas un travail est fait sur la correspondance entre chaque caractère dans le corps de texte du PAP et son équivalent dans l’image de numérisation et/ou dans l’enregistrement phonographique.
-	</dd>
-	<dt>Les balises de modification</dt>
-	<dd>	
-Les balises autoriales les permettent d’indiquer tout changement apporté au texte au file du temps ainsi que la date et les personnes qui ont apporter ces modifications, la période où ces modifications on étée appliquées, ainsi que les raisons de ses modifications. Cela peut aussi être une traduction.
-</br >
-	Typiquement, chaque morceau de texte est rattaché à un auteur (lorsque plusieurs auteurs ont apportés des modifications), une date de rédaction du passage, les raisons de la modification (Censure, meilleure expression, adaptation etc...), De même que les circonstances de la première modification et la forme dont elle a été annoncée (par note de bas de page, par notice etc) et, éventuellement, le texte de justiffication joint par l’auteur. Les balises de modification contiennent donc toutes les versions d’une œuvre.
-</dd>
-	
-	<dt>Les balises de traduction</dt>
-<dd>	
-Les balises de traduction sont de deux types : les balises de correspondance de traduction et les balises de notice. Un PAP étant sensé comporter toutes les versions, même linguistiques d’un ouvrage, il existe donc plusieurs champs, ici les balises de traduction font le lien entre les phrases correspondante dans chaque version linguistique.
-<br />
-	Les balises de notice, compte à elles, contiennent pour champs, les justification données par le traducteur ainsi qu’un champ spécial pour l’auteur orriginel.
-</dd>	
-	<dt>La précision du contexte</dt>
-<dd>
-	Des balises peuvent préciser le contexte concernant un passage.
-</dd>
-	
-	<dt>La définition</dt>
-	<dd>	
-Certains mots polysémiques peuvent avoir une signification très particulière dans l’œuvre, dans ce cas, des balises spéciales précisent.
-	</dd>
-</dl>
+	<h1>Autre fonctionnalités</h1>
+	<h2>Dossier</h2>
+	⛏
+	<h2>Déffinition d’une nouvelle langue ou alphabet</h2>
+	⛏
+	<h2>Fiches annexes</h2>
+	⛏
 
+
+	<h1>Les variables circonstancielles</h1> 
 <dl>
-	<dt>Les variables circonstancielles</dt> 
 	<dd>	
 Le PAP fournit aussi un certain nombre de fonctionnalités pouvant s’adapter aux situations spacio-temporelles et même éditorielles. Ainsi, selon qu’une image soit à gauche, en haut en bas ou dans une autre page qu’un revois vers celle-ci (typiquement les "ci-contre", ci-bas) ou que l’auteur veuille faire allusion à la date ou au lieu de lecture des commandes existent à cet effet.
+		<dl>
+			<dt>date</dt>
+			<dd>
+			Cette commande permet d’insérer la date de lecture lorsequ’il s’agit d’un support intéractif s’il peut la fournir et une suite de mot, (typiquement : "au moment où vous lisez"), choisit par l’auteur pour les supports figés comme une impression sur papier. L’auteur pourra, pour les support intéractifs, choisir la précision de la date (au Nième prét), son formatage et la manière dont apparait la date, si elle doit être cariable en temps réel sous les yeux du lecteur agissant comme une montre, si elle doit être figée à la date à laquelle le lecteur a ouvert le PAP ou si elle doit être figée à la date à laquelle sa mention apparait à l’écran du lecteur.
+			</dd>
+		
+			<dt>place</dt>
+			<dd>
+			Cette commande permet d’insérer le lieu où le lecteur se situe au moment de la lecture pour les supports intéractifs si le-dit support peut le fournir, et une suite de mot, (typiquement : "à l’endroit où vous êtes"), choisi par l’auteur pour les supports figés comme une impression sur papier, comme pour /date la précision (si disponible) pourra être choisie (Pays, région, collectivité, ville, cartier, adresse postalle, coordoonée polaire etc). et bénéficiera d’options analogues à /date : si elle doit être variable en fonction du déplacement (si le dispositif de lecture peut fournir une situation spatiale en temps réél) sous les yeux du lecteur agissant comme une boussole, si elle doit être figée au lieux où le lecteur a ouvert le PAP ou si elle doit être figée au lieux où sa mention apparait à l’écran du lecteur.
+			</dd>
+		
+			<dt>name</dt>
+			<dd>
+			Permet d’insérer des informations sur le lecteur pour les supports intéractifs quand ceux-cis sont disponibles, encore une fois toutes les options de /name peuvent être remplacée par un substitut choisi
+			</dd>
+		
+			<dt>periphérique</dt>
+			<dd>
+			Permet d’inséerer des informations sur le périphérique si celles-ci sont disponibles
+			</dd>
+		
+			<dt>objetposition<dt>
+			<dd>
+			Comme un document PAP est sensé être affiché sur plusieurs types de formats, la position de certains "objets" peut varier d’une vue à l’autre, la variable /objetposition est donc substituée par la position de l’objet donné en paramètre par rapport à la mention de la variable. Cette variable reçoit néanmoins un paramètre supplémentaire qui précise si la commande à été choisie par l’auteur original qui a édité son œuvre en PAP, ou si l’auteur n’a pas édité l’œuvre en PAP mais dans un format traditionnel et que la variable /objetposition est une adaptation d’une mention brute que l’auteur aurait choisie (et qui devra être précisée dans un champ spécial).
+			</dd>
+		</dl>
+		<p>
+		Ces variables peuvent évidemment agir entre elles avec des boucles et des conditions.
+		</p>
 	</dd>
-		<dt>date</dt>
-		<dd>
-		Cette commande permet d’insérer la date de lecture lorsequ’il s’agit d’un support intéractif s’il peut la fournir et une suite de mot, (typiquement : "au moment où vous lisez"), choisit par l’auteur pour les supports figés comme une impression sur papier. L’auteur pourra, pour les support intéractifs, choisir la précision de la date (au Nième prét), son formatage et la manière dont apparait la date, si elle doit être cariable en temps réel sous les yeux du lecteur agissant comme une montre, si elle doit être figée à la date à laquelle le lecteur a ouvert le PAP ou si elle doit être figée à la date à laquelle sa mention apparait à l’écran du lecteur.
-		</dd>
-	
-		<dt>place</dt>
-		<dd>
-		Cette commande permet d’insérer le lieu où le lecteur se situe au moment de la lecture pour les supports intéractifs si le-dit support peut le fournir, et une suite de mot, (typiquement : "à l’endroit où vous êtes"), choisi par l’auteur pour les supports figés comme une impression sur papier, comme pour /date la précision (si disponible) pourra être choisie (Pays, région, collectivité, ville, cartier, adresse postalle, coordoonée polaire etc). et bénéficiera d’options analogues à /date : si elle doit être variable en fonction du déplacement (si le dispositif de lecture peut fournir une situation spatiale en temps réél) sous les yeux du lecteur agissant comme une boussole, si elle doit être figée au lieux où le lecteur a ouvert le PAP ou si elle doit être figée au lieux où sa mention apparait à l’écran du lecteur.
-		</dd>
-	
-		<dt>name</dt>
-		<dd>
-		Permet d’insérer des informations sur le lecteur pour les supports intéractifs quand ceux-cis sont disponibles, encore une fois toutes les options de /name peuvent être remplacée par un substitut choisi
-		</dd>
-	
-		<dt>periphérique</dt>
-		<dd>
-		Permet d’inséerer des informations sur le périphérique si celles-ci sont disponibles
-		</dd>
-	
-		<dt>objetposition<dt>
-		<dd>
-		Comme un document PAP est sensé être affiché sur plusieurs types de formats, la position de certains "objets" peut varier d’une vue à l’autre, la variable /objetposition est donc substituée par la position de l’objet donné en paramètre par rapport à la mention de la variable. Cette variable reçoit néanmoins un paramètre supplémentaire qui précise si la commande à été choisie par l’auteur original qui a édité son œuvre en PAP, ou si l’auteur n’a pas édité l’œuvre en PAP mais dans un format traditionnel et que la variable /objetposition est une adaptation d’une mention brute que l’auteur aurait choisie (et qui devra être précisée dans un champ spécial).
-		</dd>
-	</dl>
-	<p>
-	Ces variables peuvent évidemment agir entre elles avec des boucles et des conditions.
-	</p>
+</dl>
 </section>
 <?php
 genbottom();
